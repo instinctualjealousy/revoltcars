@@ -132,29 +132,6 @@ a:active {
 
 }
 
-/* uniquehits.php */
-@font-face {
-    font-family: 'lcdmono2bold';
-    src: url('../hitcounter/lcdm2b-webfont.eot?#iefix') format('embedded-opentype'), 
-         url('../hitcounter/lcdm2b-webfont.woff2') format('woff2'), 
-         url('../hitcounter/lcdm2b-webfont.woff') format('woff'), 
-         url('../hitcounter/lcdm2b-webfont.ttf')  format('truetype'),
-         url('../hitcounter/lcdm2b-webfont.svg#lcdmono2bold') format('svg');
-
-}
-.hitcounter {
-    color: rgb(255, 196, 16);
-    font-family: lcdmono2bold, "Consolas", "Courier New", monospace;
-    font-size: 1.85em;
-
-}
-.hctext {
-    color: rgb(255, 255, 255);
-    font-family: Consolas, "Courier New", monospace;
-    font-size: 1em;
-
-}
-
 /* carpages */
 .darkcell {
     background-color: rgb(102, 102, 102);
@@ -228,17 +205,5 @@ a:active {
 .vehlist {
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: 0.95em;
-
-}
-
-/* archive/images/ */
-#picturearea {
-    filter:alpha(opacity=100);
-    -moz-opacity: 0;
-    float: left;
-    height: 250px;
-    width: 250px;
-    box-shadow: 0pt 0pt 5px black;
-    margin-left: 20px;
 
 }
