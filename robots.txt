@@ -14,6 +14,7 @@ Disallow: /assets/
 Disallow: /carimg/
 Disallow: /carzips/
 Disallow: /css/
+Disallow: /gallery/
 Disallow: /holes/
 Disallow: /riffraff/
 Disallow: /themeandme/
