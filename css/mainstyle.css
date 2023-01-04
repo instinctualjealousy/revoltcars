@@ -173,16 +173,13 @@ a:active {
 
 }
 .pageswitch {
-    text-align: left;
+    text-align: center;
+    background-color: black;
     color: rgb(255, 255, 255);
     font-family: Consolas, "Courier New", monospace;
     margin: auto;
-
-}
-.bottomsw {
-    text-align: center;
-    background-color: black;
-    width: 100px;
+    width: fit-content;
+    padding: 10px;
     box-shadow: 0pt 0pt 10px black;
 
 }
