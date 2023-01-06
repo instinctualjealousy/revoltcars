@@ -12,7 +12,6 @@ Disallow: /vault2.html
 Disallow: /aeonica/
 Disallow: /assets/
 Disallow: /carimg/
-Disallow: /carzips/
 Disallow: /css/
 Disallow: /gallery/
 Disallow: /holes/
