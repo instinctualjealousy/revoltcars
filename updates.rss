@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Adamodell's Re-Volt Cars</title>
+        <link>https://revoltcars.tk/</link>
+        <description>New/Updated Content</description>
+        <language>en-us</language>
+        <ttl>10</ttl>
+        <item>
+            <title>Lamborghini Murciélago Pursuit</title>
+            <link>https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/instinctualjealousy/cars4rv/tree/main/lamurpur</link>
+            <description>New Ryuji car conversion from NFS4- using TheMeandMe's Murciélago as a base- first new conversion using Blender. Keeps params mostly intact, barring changes necessary for prm2hul and a few minor offsetting improvements. Wheels by scloink, like the original model.</description>
+            <pubDate>14 Jan 2023 13:13:30 (GMT -6)</pubDate>
+        </item>
+        <item>
+            <title>Toyota bB</title>
+            <link>https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/instinctualjealousy/cars4rv/tree/main/toyobbub</link>
+            <description>Was xB, renamed for accuracy to original model. Mesh was re-converted and repaired from Ryuji's bad mirroring job. Comes with all sorts of colors and a param set derived from the ZZII, but FWD and slower.</description>
+            <pubDate>14 Jan 2023 13:13:30 (GMT -6)</pubDate>
+        </item>
+        <item>
+            <title>Blitz ZZII</title>
+            <link>https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/instinctualjealousy/cars4rv/tree/main/blitzzii</link>
+            <description>Texture and scale improvements, shadowmap added, new HUL generated.</description>
+            <pubDate>10 Jan 2023 09:28:02 (GMT -6)</pubDate>
+        </item>
+        <item>
+            <title>Tommy Kaira ZZII</title>
+            <link>https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/instinctualjealousy/cars4rv/tree/main/kaizzii</link>
+            <description>Texture and scale improvements, shadowmap added, new HUL generated, utilizes ZZII Professional parameters.</description>
+            <pubDate>7 Jan 2023 11:10:08 (GMT -6)</pubDate>
+        </item>
+    </channel>
+</rss>
