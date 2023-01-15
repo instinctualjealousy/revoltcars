@@ -12,28 +12,28 @@
 			<title>Lamborghini Murciélago Pursuit</title>
 			<link>https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/instinctualjealousy/cars4rv/tree/main/lamurpur</link>
 			<description>New Ryuji car conversion from NFS4- using TheMeandMe's Murciélago as a base- first new conversion using Blender. Keeps params mostly intact, barring changes necessary for prm2hul and a few minor offsetting improvements. Wheels by scloink, like the original model.</description>
-            <guid>wScNAsk2</guid>
+            <guid isPermaLink="false">wScNAsk2</guid>
 			<pubDate>Sat, 14 Jan 2023 13:13:30 CST</pubDate>
 		</item>
 		<item>
 			<title>Toyota bB</title>
 			<link>https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/instinctualjealousy/cars4rv/tree/main/toyobbub</link>
 			<description>Was xB, renamed for accuracy to original model. Mesh was re-converted and repaired from Ryuji's bad mirroring job. Comes with all sorts of colors and a param set derived from the ZZII, but FWD and slower.</description>
-            <guid>zK9X2j4e</guid>
+            <guid isPermaLink="false">zK9X2j4e</guid>
 			<pubDate>Sat, 14 Jan 2023 13:13:30 CST</pubDate>
 		</item>
 		<item>
 			<title>Blitz ZZII</title>
 			<link>https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/instinctualjealousy/cars4rv/tree/main/blitzzii</link>
 			<description>Texture and scale improvements, shadowmap added, new HUL generated.</description>
-            <guid>i5BpD9Yd</guid>
+            <guid isPermaLink="false">i5BpD9Yd</guid>
 			<pubDate>Tue, 10 Jan 2023 09:28:02 CST</pubDate>
 		</item>
 		<item>
 			<title>Tommy Kaira ZZII</title>
 			<link>https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/instinctualjealousy/cars4rv/tree/main/kaizzii</link>
 			<description>Texture and scale improvements, shadowmap added, new HUL generated, utilizes ZZII Professional parameters.</description>
-            <guid>MD84ewGc</guid>
+            <guid isPermaLink="false">MD84ewGc</guid>
 			<pubDate>Sat, 7 Jan 2023 11:10:08 CST</pubDate>
 		</item>
 	</channel>
