@@ -9,6 +9,13 @@
 		<language>en-us</language>
 		<ttl>10</ttl>
 		<item>
+			<title>New Release: Carbox 2 & 3</title>
+			<link>https://revoltcars.tk/tracks01.html#row1</link>
+			<description>Slightly improved version of Skarma's?? Carbox. Green-screen version also included.</description>
+            <guid isPermaLink="false">4f4d1138-8549-4df3-9205-5075949d9086</guid>
+			<pubDate>Thu, 19 Jan 2023 12:21:24 CST</pubDate>
+		</item>
+		<item>
 			<title>Update: Murciélago Pursuit</title>
 			<link>https://revoltcars.tk/cars07.html#row4</link>
 			<description>Re-converted mesh due to oversight. Added new horn and engine sounds.</description>
