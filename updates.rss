@@ -9,6 +9,13 @@
 		<language>en-us</language>
 		<ttl>10</ttl>
 		<item>
+			<title>Update: Toyota bB</title>
+			<link>https://revoltcars.tk/cars04.html#row1</link>
+			<description>Carbox added, parameter tweaks, new hull.</description>
+            <guid isPermaLink="false">2b8b79b9-2672-43b8-abbe-ccbe40fbe1f6</guid>
+			<pubDate>Mon, 23 Jan 2023 10:52:44 CST</pubDate>
+		</item>
+		<item>
 			<title>Updates: Focus 1.8i and Oreca Viper</title>
 			<link>https://revoltcars.tk/cars07.html#row4</link>
 			<description>Improvements across the board. New shadows, carboxes. Updated params, textures.</description>
