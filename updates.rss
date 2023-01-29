@@ -1,95 +1,122 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0"
-	xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Adamodell's Re-Volt Cars</title>
 		<link>https://revoltcars.tk/</link>
-		<atom:link href="https://revoltcars.tk/updates.rss" rel="self" type="application/rss+xml" />
+		<atom:link href="https://revoltcars.tk/updates.rss" rel="self" type="application/rss+xml"/>
 		<description>New/Updated Content</description>
 		<language>en-us</language>
 		<ttl>10</ttl>
 		<item>
+			<title>Update: F-250 Lowrider</title>
+			<link>https://revoltcars.tk/cars04.html#row3</link>
+			<description>New carbox, colors, shadow- updated parameters, regenerated hull, and other tweaks.</description>
+			<guid isPermaLink="false">264d156c-78c4-4876-bcb3-3fd90fccfb31</guid>
+			<pubDate>Sun, 29 Jan 2023 10:56:53 CST</pubDate>
+		</item>
+		<item>
+			<title>Update: Skyline H/T 2000GT-R</title>
+			<link>https://revoltcars.tk/cars02.html#row4</link>
+			<description>Updated carbox, new color method (colors may vary slightly from before).</description>
+			<guid isPermaLink="false">cdd8604c-63d2-4db8-89ae-73ddc91985e8</guid>
+			<pubDate>Sun, 29 Jan 2023 10:54:39 CST</pubDate>
+		</item>
+		<item>
+			<title>Update: Ford Focus 1.8i</title>
+			<link>https://revoltcars.tk/cars07.html#row4</link>
+			<description>New color method (custom colors may vary slightly from before).</description>
+			<guid isPermaLink="false">78c5ce5b-60c1-4edc-9b43-79b3335fdee5</guid>
+			<pubDate>Sun, 29 Jan 2023 10:53:59 CST</pubDate>
+		</item>
+		<item>
+			<title>Update: Toyota bB</title>
+			<link>https://revoltcars.tk/cars04.html#row1</link>
+			<description>Updated carbox, new color method (colors may vary slightly from before).</description>
+			<guid isPermaLink="false">b3ac2367-2324-4260-ace3-37f662589c64</guid>
+			<pubDate>Sun, 29 Jan 2023 10:52:35 CST</pubDate>
+		</item>
+		<item>
 			<title>Update: Skyline H/T 2000GT-R</title>
 			<link>https://revoltcars.tk/cars02.html#row4</link>
 			<description>New hull, paints, params, fixes, carbox. Up to my current standards!</description>
-            <guid isPermaLink="false">78187f25-a489-4041-86f2-24eaa7f891c1</guid>
+			<guid isPermaLink="false">78187f25-a489-4041-86f2-24eaa7f891c1</guid>
 			<pubDate>Wed, 25 Jan 2023 11:02:55 CST</pubDate>
 		</item>
 		<item>
 			<title>Update: Persona 5 Morgana Van</title>
 			<link>https://revoltcars.tk/cars08.html#row1</link>
 			<description>Mild parameter tweaks. Slightly less stable?</description>
-            <guid isPermaLink="false">dbd770eb-f172-4193-8e45-33ca0b7e0af2</guid>
+			<guid isPermaLink="false">dbd770eb-f172-4193-8e45-33ca0b7e0af2</guid>
 			<pubDate>Mon, 23 Jan 2023 11:22:05 CST</pubDate>
 		</item>
 		<item>
 			<title>Update: Toyota bB</title>
 			<link>https://revoltcars.tk/cars04.html#row1</link>
 			<description>Carbox added, parameter tweaks, new hull.</description>
-            <guid isPermaLink="false">2b8b79b9-2672-43b8-abbe-ccbe40fbe1f6</guid>
+			<guid isPermaLink="false">2b8b79b9-2672-43b8-abbe-ccbe40fbe1f6</guid>
 			<pubDate>Mon, 23 Jan 2023 10:52:44 CST</pubDate>
 		</item>
 		<item>
 			<title>Updates: Focus 1.8i and Oreca Viper</title>
 			<link>https://revoltcars.tk/cars07.html#row4</link>
 			<description>Improvements across the board. New shadows, carboxes. Updated params, textures.</description>
-            <guid isPermaLink="false">8dd7a1e0-8b52-49ce-8196-3002077f14ed</guid>
+			<guid isPermaLink="false">8dd7a1e0-8b52-49ce-8196-3002077f14ed</guid>
 			<pubDate>Sun, 22 Jan 2023 12:06:19 CST</pubDate>
 		</item>
 		<item>
 			<title>New Release: Persona 5 Morgana Van</title>
 			<link>https://revoltcars.tk/cars08.html#row1</link>
 			<description>Ridiculous car originally from Persona 5. Included help on parameters by Flawestruck.</description>
-            <guid isPermaLink="false">3f4809e1-013f-4ddb-93c0-b4a4cfd55933</guid>
+			<guid isPermaLink="false">3f4809e1-013f-4ddb-93c0-b4a4cfd55933</guid>
 			<pubDate>Fri, 20 Jan 2023 14:16:22 CST</pubDate>
 		</item>
 		<item>
 			<title>Update: Murciélago Pursuit</title>
 			<link>https://revoltcars.tk/cars07.html#row4</link>
 			<description>Switched horn and engine sounds. Added carbox yesterday.</description>
-            <guid isPermaLink="false">8415fe69-7312-469d-96ae-a3827a8c6478</guid>
+			<guid isPermaLink="false">8415fe69-7312-469d-96ae-a3827a8c6478</guid>
 			<pubDate>Fri, 20 Jan 2023 14:14:04 CST</pubDate>
 		</item>
 		<item>
 			<title>New Release: Carbox 2 &amp; 3</title>
 			<link>https://revoltcars.tk/tracks01.html#row1</link>
 			<description>Slightly improved version of Skarma's?? Carbox. Green-screen version also included.</description>
-            <guid isPermaLink="false">4f4d1138-8549-4df3-9205-5075949d9086</guid>
+			<guid isPermaLink="false">4f4d1138-8549-4df3-9205-5075949d9086</guid>
 			<pubDate>Thu, 19 Jan 2023 12:21:24 CST</pubDate>
 		</item>
 		<item>
 			<title>Update: Murciélago Pursuit</title>
 			<link>https://revoltcars.tk/cars07.html#row4</link>
 			<description>Re-converted mesh due to oversight. Added new horn and engine sounds.</description>
-            <guid isPermaLink="false">6c34348f-74a3-4446-b4a7-1f29cf81a02b</guid>
+			<guid isPermaLink="false">6c34348f-74a3-4446-b4a7-1f29cf81a02b</guid>
 			<pubDate>Sun, 15 Jan 2023 14:05:59 CST</pubDate>
 		</item>
 		<item>
 			<title>New Release: Murciélago Pursuit</title>
 			<link>https://revoltcars.tk/cars07.html#row4</link>
 			<description>New Ryuji car conversion from NFS4- using TheMeandMe's Murciélago as a base.</description>
-            <guid isPermaLink="false">78e1737a-7434-4d33-916e-8dcf86877c7b</guid>
+			<guid isPermaLink="false">78e1737a-7434-4d33-916e-8dcf86877c7b</guid>
 			<pubDate>Sat, 14 Jan 2023 13:13:30 CST</pubDate>
 		</item>
 		<item>
 			<title>Update: Toyota bB (was Scion xB)</title>
 			<link>https://revoltcars.tk/cars04.html#row1</link>
 			<description>Renamed for accuracy to original model. Mesh was re-converted and repaired!</description>
-            <guid isPermaLink="false">515c2fcf-347a-425f-bee2-758f3a8f88da</guid>
+			<guid isPermaLink="false">515c2fcf-347a-425f-bee2-758f3a8f88da</guid>
 			<pubDate>Sat, 14 Jan 2023 13:13:30 CST</pubDate>
 		</item>
 		<item>
 			<title>Update: Blitz ZZII</title>
 			<link>https://revoltcars.tk/cars04.html#row4</link>
 			<description>Texture and scale improvements, shadowmap added, new HUL generated.</description>
-            <guid isPermaLink="false">1bbdb91a-17d4-4cf9-9446-81705b09c604</guid>
+			<guid isPermaLink="false">1bbdb91a-17d4-4cf9-9446-81705b09c604</guid>
 			<pubDate>Tue, 10 Jan 2023 09:28:02 CST</pubDate>
 		</item>
 		<item>
 			<title>Update: Tommy Kaira ZZII</title>
 			<link>https://revoltcars.tk/cars04.html#row1</link>
 			<description>Texture and scale improvements, shadowmap added, new HUL generated, utilizes ZZII Pro parameters.</description>
-            <guid isPermaLink="false">ac4dd4e8-0026-4dd8-95e8-2a68c3787bb1</guid>
+			<guid isPermaLink="false">ac4dd4e8-0026-4dd8-95e8-2a68c3787bb1</guid>
 			<pubDate>Sat, 7 Jan 2023 11:10:08 CST</pubDate>
 		</item>
 	</channel>
