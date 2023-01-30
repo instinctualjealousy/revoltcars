@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0"
+     xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Adamodell's Re-Volt Cars</title>
 		<link>https://revoltcars.tk/</link>
-		<atom:link href="https://revoltcars.tk/updates.rss" rel="self" type="application/rss+xml"/>
+		<atom:link href="https://revoltcars.tk/updates.rss"
+		           rel="self"
+		           type="application/rss+xml"/>
 		<description>New/Updated Content</description>
 		<language>en-us</language>
 		<ttl>10</ttl>
 		<item>
-			<title>Update: F-250 Lowrider</title>
+			<title>Update: Skyline H/T 2000GT-R</title>
+			<link>https://revoltcars.tk/cars02.html#row4</link>
+			<description>Removed backface culling from steering wheel texture.</description>
+			<guid isPermaLink="false">1b8c72b7-0efe-4f2b-b7c4-f24129fcb102</guid>
+			<pubDate>Mon, 30 Jan 2023 12:53:48 CST</pubDate>
+		</item>
+		<item>
+			<title>Update: Honda CR-X</title>
+			<link>https://revoltcars.tk/cars03.html#row3</link>
+			<description>New carbox, colors, shadow- updated parameters, regenerated hull, and other tweaks.</description>
+			<guid isPermaLink="false">7c5e98a7-65b4-4d32-8aa4-459cfcd973ab</guid>
+			<pubDate>Mon, 30 Jan 2023 12:52:21 CST</pubDate>
+		</item>
+		<item>
+			<title>Update: Ford F-250 Lowrider</title>
 			<link>https://revoltcars.tk/cars04.html#row3</link>
 			<description>New carbox, colors, shadow- updated parameters, regenerated hull, and other tweaks.</description>
 			<guid isPermaLink="false">264d156c-78c4-4876-bcb3-3fd90fccfb31</guid>
