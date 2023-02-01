@@ -1,14 +1,22 @@
 User-agent: ia_archiver
 Disallow:
 
+User-agent: archive.org_bot
+Disallow:
+
 User-agent: *
-Disallow: /cconv1.html
-Disallow: /cconv2.html
+Disallow: /cars01.html
+Disallow: /cars02.html
+Disallow: /cars03.html
+Disallow: /cars04.html
+Disallow: /cars05.html
+Disallow: /cars06.html
+Disallow: /cars07.html
+Disallow: /cars08.html
 Disallow: /left1.htm
-Disallow: /nconv1.html
+Disallow: /main.html
 Disallow: /right1.htm
-Disallow: /vault1.html
-Disallow: /vault2.html
+Disallow: /tracks01.html
 Disallow: /aeonica/
 Disallow: /assets/
 Disallow: /carimg/
