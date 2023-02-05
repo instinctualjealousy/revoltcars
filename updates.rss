@@ -11,6 +11,13 @@
 		<language>en-us</language>
 		<ttl>10</ttl>
 		<item>
+			<title>Update: Lamborghini Gallardo</title>
+			<link>https://revoltcars.tk/cars03.html#row2</link>
+			<description>New carbox, colors, shadow- updated parameters, regenerated hull, and PRM fixes.</description>
+			<guid isPermaLink="false">3ed6a817-0576-4bdf-a2d2-878c166cdbe7</guid>
+			<pubDate>Sun, 5 Feb 2023 12:52:47 CST</pubDate>
+		</item>
+		<item>
 			<title>Update: Skyline H/T 2000GT-R</title>
 			<link>https://revoltcars.tk/cars02.html#row4</link>
 			<description>Removed backface culling from steering wheel texture.</description>
