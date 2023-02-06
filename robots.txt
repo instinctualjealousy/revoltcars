@@ -23,6 +23,7 @@ Disallow: /carimg/
 Disallow: /css/
 Disallow: /gallery/
 Disallow: /holes/
+Disallow: /js/
 Disallow: /riffraff/
 Disallow: /themeandme/
 Disallow: /tools/

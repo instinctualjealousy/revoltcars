@@ -6,6 +6,27 @@
   <title>Right Pane/Information</title>
   <meta name="author" content="Adam O'Dell">
   <link rel="stylesheet" type="text/css" href="css/mainstyle.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href=
+  "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity=
+  "sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+  crossorigin="anonymous">
+  <script src=
+  "https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity=
+  "sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+  crossorigin="anonymous"></script>
+  <script src=
+  "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity=
+  "sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src=
+  "https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript" src="js/feedreader.js"></script>
 </head>
 <body class="mainbody">
   <table class="maintable" style="width: 50%;">
@@ -23,99 +44,18 @@
       <tr>
         <td class="maincell cellfill infobase">
           <span class="header">Updates</span><br>
-          <p><span class="subheader">(January 17th,
-          2023)</span><br>
-          To the surprise of no one, I suddenly left Discord again.
-          I never really liked it. I'm sorry I keep doing this.<br>
-          <br>
-          It killed forums, but wasn't a replacement for them. I
-          never really liked IRC much either. The vibe and pace of
-          conversation is far different, more involved- yet more
-          ephemeral. Some people's attitudes rub me more the wrong
-          way in such a scenario, too, and I'm sure it's the same
-          of me to others.<br>
-          <br>
-          I would like to be somewhat involved with the community
-          again, like I was over ten years ago- and yet, the most
-          "supported" Re-Volt forum, "The Re-Volt Hideout", is
-          practically dead-in-the-water. The new scene lives and
-          thrives on Discord.<br>
-          <br>
-          I am pulled back to Discord for the community. However, I
-          am pulled away from Discord via its paradigm, its vibe.
-          It lacks the roominess or the touch-and-go of a
-          moderately active forum. This isn't specifically about
-          Re-Volt, nor do I blame any one person for this. It's a
-          systemic problem developed by this means of
-          communication- by the culture surrounding it. It brings
-          out things in people I find irritating.<br>
-          <br>
-          I don't exactly know what to do. I feel like all I need
-          is a friend or two with their eyes on the community- to
-          be my filter.</p>
-          <p><span class="subheader">(January 14th,
-          2023)</span><br>
-          Added an RSS feed. Manually updated, because static
-          website.</p>
           <p><span class="subheader">(January 6th, 2023)</span><br>
-          Car downloads moved to GitHub repository links generated
-          with DownGit. Woo!<br>
-          <br>
           I now have a much wider selection of cars that were
           originally omitted from this site. Cars will get updated
           incrementally rather than discretely versioned. Pictures
-          may not always be fully representative.<br>
-          <br>
-          I'll try to be clear about my commits. Car folder names
-          are different now, and named to avoid clobber with other
-          custom cars. Thinking of ways to keep users informed of
-          updates- it will need to be compatible with a static
-          website, though.<br>
-          <br>
-          One last thing to note, I won't push cars to other
-          websites until I feel they're truly done. Thanks for
-          looking!</p>
-          <p><span class="subheader">(January 4th, 2023)</span><br>
-          Reworked website structure- cars are now in RVZT release
-          order, in TMaM style sections. This includes cars not
-          released to the main page of this site for reasons of
-          quality.</p>
+          may not always be fully representative.</p>
           <p><span class="subheader">(January 1st, 2023)</span><br>
           The Me and Me's website backup is now up. Not all zips
           may be originals, and some minor fixes may still be
           required. I restored saver's and Jam's bios, but I
-          removed contact information. I hope you enjoy it!</p>
-          <p><span class="subheader">(December 31st,
-          2022)</span><br>
-          Moved my website to GitHub Pages of all places. I found
-          you, faker! I am working on page organization... and
-          ridding myself of the "archive" section- making things
-          more visible.<br>
-          <br>
-          I have other plans, like restoring TheMeandMe's webpage
-          next! After I'm done with the web stuff, I'm getting back
-          to going through Allmymodells (inside joke), fixing them
-          up- and taking advantage of RVGL features.</p>
-          <p><span class="subheader">(December 24th,
-          2022)</span><br>
-          Moving my website to revoltcars.tk domain. It's already
-          parked, <strike>but revoltcars.racing will be up and
-          working until it expires.</strike><br>
-          <br>
-          I will fix all the off-site links I can remember to
-          reflect this domain change (forum posts/account
-          information...) in the meantime.</p>
-          <p><span class="subheader">(January 17th,
-          2018)</span><br>
-          MY BUSINESS... is done. I'm complete with the migration
-          to external CSS styles and the removal of antiquated
-          HTML. It's not the best implementation, but a sight
-          better than it was before.</p>
-          <p><span class="subheader">(January 13th,
-          2018)</span><br>
-          Brought my page back from the dead! I've got a new domain
-          registered and I've been cleaning up the messy HTML for
-          now.</p>
+          removed contact information. I hope you enjoy
+          it!</p><span class="header">RSS Feed (Last 10)</span><br>
+          <div id="content"></div>
         </td>
       </tr>
       <tr>
