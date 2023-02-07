@@ -8,6 +8,13 @@
 		<language>en-us</language>
 		<ttl>10</ttl>
 		<item>
+			<title>Update: Murciélago Pursuit</title>
+			<link>https://revoltcars.tk/cars07.html#row4</link>
+			<description>Car now correctly marked as Super Pro ahead of Re-Volt World release</description>
+			<guid isPermaLink="false">710a0fd4-f37d-4f98-b0be-6933e422052f</guid>
+			<pubDate>Tue, 7 Feb 2023 15:24:27 CST</pubDate>
+		</item>
+		<item>
 			<title>Update: Lamborghini Gallardo</title>
 			<link>https://revoltcars.tk/cars03.html#row2</link>
 			<description>New carbox, colors, shadow- updated parameters, regenerated hull, and PRM fixes</description>
