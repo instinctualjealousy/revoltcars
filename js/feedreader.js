@@ -1,7 +1,7 @@
 {
     $.ajax({
         type: 'GET',
-        url: "https://api.rss2json.com/v1/api.json?rss_url=https://revoltcars.tk/updates.rss?t=3155781600",
+        url: "https://api.rss2json.com/v1/api.json?rss_url=https://revoltcars.tk/updates.rss",
         dataType: 'jsonp',
         success: function (data) {
             console.log(data);
