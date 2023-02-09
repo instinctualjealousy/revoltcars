@@ -8,6 +8,13 @@
 		<language>en-us</language>
 		<ttl>10</ttl>
 		<item>
+			<title>Update: Persona 5 Morgana Van</title>
+			<link>https://revoltcars.tk/cars08.html#row1</link>
+			<description>Tail (tail.prm) is now autoshaded, looks better</description>
+			<guid isPermaLink="false">fe36cea1-ddea-4f43-bb28-83e8af287b97</guid>
+			<pubDate>Wed, 8 Feb 2023 21:05:15 CST</pubDate>
+		</item>
+		<item>
 			<title>Update: Murciélago Pursuit</title>
 			<link>https://revoltcars.tk/cars07.html#row4</link>
 			<description>Car now correctly marked as Super Pro ahead of Re-Volt World release</description>
@@ -55,13 +62,6 @@
 			<description>Updated carbox, new color method (colors may vary slightly from before)</description>
 			<guid isPermaLink="false">b3ac2367-2324-4260-ace3-37f662589c64</guid>
 			<pubDate>Sun, 29 Jan 2023 10:52:35 CST</pubDate>
-		</item>
-		<item>
-			<title>Update: Persona 5 Morgana Van</title>
-			<link>https://revoltcars.tk/cars08.html#row1</link>
-			<description>Mild parameter tweaks- slightly less stable?</description>
-			<guid isPermaLink="false">dbd770eb-f172-4193-8e45-33ca0b7e0af2</guid>
-			<pubDate>Mon, 23 Jan 2023 11:22:05 CST</pubDate>
 		</item>
 		<item>
 			<title>Update: Team Oreca Viper GTS-R</title>
