@@ -12,17 +12,16 @@
   <link rel="stylesheet" type="text/css" href=
   "../../css/mainstyle.min.css">
 </head>
-<body class="mainbody tutbg">
-  <table class="maintable tablebind">
+<body class="tutbg">
+  <table class="tablebind">
     <tbody>
       <tr>
-        <td class="maincell tutfill">
-          <span class="header headcomp">GT2 Tutorial (<a href=
-          "gt2id.html" target="_self">-&gt;Vehicle ID
-          List</a>)</span><br>
-          <p class="tutbase"><strong>Note: In many ways, this
-          tutorial is out of date. Many new discoveries and tools
-          have been made since its creation.<br>
+        <td class="cellfill tutbase">
+          <h1>GT2 Tutorial (<a href="gt2id.html" target=
+          "_self">-&gt;Vehicle ID List</a>)</h1><strong>Note: In
+          many ways, this tutorial is out of date. Many new
+          discoveries and tools have been made since its
+          creation.<br>
           I am keeping this here simply for posterity and reference
           to things that may still apply.</strong><br>
           <br>
@@ -52,21 +51,16 @@
           <br>
           First things first, though, is that you have to be good
           at ZModeler, this includes all sorts of UV mapping
-          skittles (skills).<br>
-          <br>
-          <span class=
-          "inlinecenter">_________________________________________________________________________________________________</span><br>
-
-          <br>
-          <span class="tutsh">Chapter 1: Getting the mesh you
-          want/basics</span><br>
-          Well, now we got that out of the way, pop either the
-          Arcade or Simulation GT2 disc in your CD drive, or via a
-          disc image of it mounted on a virtual drive. Make a new
-          folder, call it "GT2 Stuff" or something. Put it on your
-          desktop. Start GT2Vol and set the directory you wish to
-          extract the files at the top. Deselect "carobj" from the
-          list of items to skip.<br>
+          skittles (skills).
+          <hr>
+          <h4>Chapter 1: Getting the mesh you want/basics</h4>Well,
+          now we got that out of the way, pop either the Arcade or
+          Simulation GT2 disc in your CD drive, or via a disc image
+          of it mounted on a virtual drive. Make a new folder, call
+          it "GT2 Stuff" or something. Put it on your desktop.
+          Start GT2Vol and set the directory you wish to extract
+          the files at the top. Deselect "carobj" from the list of
+          items to skip.<br>
           <br>
           Click the "Do it" button (Judas Priest have been telling
           you to all these years, after all!) when you are sure
@@ -131,16 +125,10 @@
           texturing, but don't worry, after that, it will get back
           to where we left off on this chapter. It's just the
           textures need to be prepared before mapping them, of
-          course.<br>
-          <br>
-          <span class=
-          "inlinecenter">_________________________________________________________________________________________________</span><br>
-
-          <br>
-          <span class="tutsh">Chapter 2: Preparing a texture
-          map</span><br>
-          <br>
-          <strong>The three methods:</strong><br>
+          course.
+          <hr>
+          <h4>Chapter 2: Preparing a texture map</h4><strong>The
+          three methods:</strong><br>
           Real life/other source images of car aspects
           (front/side/rear) made into a map (my R30 Silhouette
           Formula)<br>
@@ -202,32 +190,26 @@
           further because I assume you have enough knowledge of
           Re-Volt bitmaps to make a satisfactory map. The only
           thing to worry about is to make sure you've made sure
-          where the wheels go on the map.<br>
-          <br>
-          <span class="tutsh">Chapter 3: Back to ZModeler and right
-          back out</span><br>
-          So you have that car imported still, yes? The LOD models
+          where the wheels go on the map.
+          <hr>
+          <h4>Chapter 3: Back to ZModeler and right back out</h4>So
+          you have that car imported still, yes? The LOD models
           deleted? Good. Now, here's what you need to do. This part
           is indeed a little iffy, so pay attention. Delete all
           materials (what, you ask? this isn't a ZModeler tutorial)
           and add a new material, the bitmap you made in the
           previous chapter. When all is good, export this as a
           *.3ds. Why? Because we're leaving ZModeler. Trust me,
-          it's crap for this.<br>
-          <br>
-          <span class=
-          "inlinecenter">_________________________________________________________________________________________________</span><br>
-
-          <br>
-          <span class="tutsh">Chapter 4: Lithium
-          Unwrapper</span><br>
-          If you have a better understanding of ZModeler's mapping
-          than LithUnwrap's and don't feel like changing workflow,
-          skip this chapter entirely and continue from where you
-          left off (adding the material in ZModeler). If you wish
-          to use Lithium Unwrapper, I expect you know how to use
-          it, basically. I'll go through the basics, but I'm not
-          holding hands here.<br>
+          it's crap for this.
+          <hr>
+          <h4>Chapter 4: Lithium Unwrapper</h4>If you have a better
+          understanding of ZModeler's mapping than LithUnwrap's and
+          don't feel like changing workflow, skip this chapter
+          entirely and continue from where you left off (adding the
+          material in ZModeler). If you wish to use Lithium
+          Unwrapper, I expect you know how to use it, basically.
+          I'll go through the basics, but I'm not holding hands
+          here.<br>
           <br>
           Open Lithium Unwrapper. Go to File-&gt; Model-&gt; Open
           in the menu, and open the *.3ds file you created. With
@@ -245,7 +227,7 @@
           this, probably some ways that are faster. But here's my
           way:<br>
           <br>
-          <span class="tutsh">Subchapter: FCE Finish</span><br>
+          Subchapter: FCE Finish<br>
           Since I'm using FCE Finish to do this, I need to take
           that model I just imported back into ZModeler and export
           is as an *.fce, the NFS4 format. Once the file is
@@ -270,25 +252,20 @@
           angle limit". "No" (the furthest right) is the most
           surefire option, but if you want to retain some edges by
           angle amount, tweak to taste. When all looks good, simply
-          save the *.fce.<br>
-          <br>
-          <span class=
-          "inlinecenter">_________________________________________________________________________________________________</span><br>
-
-          <br>
-          <span class="tutsh">Chapter 5: Final Preparations for
-          Re-Volt!</span><br>
-          This is where it'll start getting a lot like NFS4
-          conversions, this is the home stretch. I'll assume
-          whichever path you took, you now have a workable texture,
-          decided on wheels and a wheel texture, and have the car
-          body fully mapped and worked out. At this point, you'll
-          want to do the standard NFS4 procedure to get a PRM that
-          actually works right in Re-Volt (isn't clear/isn't
-          black). Once you have it exported and shaded- I use a
-          body size of 0.5, but if you want it closer to NFS4 TMaM
-          size, you'll want it closer to 0.4. From here, you're on
-          your own, come up with something awesome.<br>
+          save the *.fce.
+          <hr>
+          <h4>Chapter 5: Final Preparations for Re-Volt!</h4>This
+          is where it'll start getting a lot like NFS4 conversions,
+          this is the home stretch. I'll assume whichever path you
+          took, you now have a workable texture, decided on wheels
+          and a wheel texture, and have the car body fully mapped
+          and worked out. At this point, you'll want to do the
+          standard NFS4 procedure to get a PRM that actually works
+          right in Re-Volt (isn't clear/isn't black). Once you have
+          it exported and shaded- I use a body size of 0.5, but if
+          you want it closer to NFS4 TMaM size, you'll want it
+          closer to 0.4. From here, you're on your own, come up
+          with something awesome.<br>
           <br>
           <strong>Extra tips:</strong><br>
           1. Delete extraneous polygons from the mesh if you aren't
@@ -302,7 +279,7 @@
           unneeded vertices before exporting the *.3ds file<br>
           <br>
           <strong>I wish you luck. If you need personal help, just
-          ask.</strong></p>
+          ask.</strong>
         </td>
       </tr>
     </tbody>
