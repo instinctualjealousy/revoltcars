@@ -1,0 +1,22 @@
+body {
+	margin: 7%;
+}
+
+table {
+	width: 90%;
+}
+
+table td {
+	font-family: "Segoe UI", "MS Sans Serif", sans-serif;
+	font-size: 0.8em;
+	padding: 8px;
+}
+
+p {
+	margin-bottom: 0px;
+}
+
+a {
+	font-size: 1.1em;
+	font-weight: bold;
+}
