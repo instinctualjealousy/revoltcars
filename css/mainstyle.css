@@ -188,11 +188,6 @@ a:active {
 	background-size: 100% 100%;
 }
 
-.tutidhead {
-	border: none;
-	white-space: nowrap;
-}
-
 .vehlist {
 	font-family: "Lucida Console", "Courier New", monospace;
 	font-size: 0.95em;
