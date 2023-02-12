@@ -129,6 +129,11 @@ a:active {
 	color: rgb(135, 135, 135);
 }
 
+#prev,
+#next {
+	display: none;
+}
+
 .cellfill {
 	background-color: rgb(32, 32, 32);
 }
