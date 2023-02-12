@@ -37,14 +37,6 @@ img {
 	padding: 12px;
 }
 
-.pageswitch {
-	box-shadow: 0pt 0pt 10px black;
-	font-family: Consolas, "Courier New", monospace;
-	margin: auto;
-	padding: 10px;
-	width: fit-content;
-}
-
 .rightalign {
 	text-align: right;
 }
