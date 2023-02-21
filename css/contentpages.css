@@ -17,7 +17,11 @@ img {
 }
 
 .addonlink {
+	color: rgb(186, 186, 186) !important;
 	float: left;
+	font-size: 1.6em;
+	letter-spacing: -0.2em;
+	line-height: 0.6em;
 	text-decoration: none;
 }
 
