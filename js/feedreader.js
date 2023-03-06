@@ -2,7 +2,7 @@
     $.ajax({
         type: 'GET',
         url: "https://revoltcars.tk/updates.json",
-        dataType: 'jsonp',
+        dataType: 'json',
         success: function (data) {
             console.log(data);
             data.items.forEach(item => {
