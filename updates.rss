@@ -8,32 +8,32 @@
 		<language>en-us</language>
 		<ttl>10</ttl>
 		<item>
-			<title>Update: Ford Focus 1.8i</title>
-			<link>https://revoltcars.tk/cars07.html#foc1.8igt2</link>
-			<description>Improved hull/parameters to avoid bottoming out</description>
-			<guid isPermaLink="false">00d96177-a2d6-4e56-b8d0-a971dfcd0de7</guid>
-			<pubDate>Sun, 5 Mar 2023 18:25:53 CST</pubDate>
-		</item>
-		<item>
-			<title>Update: Team Oreca Viper GTS-R</title>
-			<link>https://revoltcars.tk/cars07.html#viporecgt2</link>
-			<description>Improved hull/parameters to avoid bottoming out</description>
-			<guid isPermaLink="false">4c40f023-456c-49b7-a152-f21cc94846d0</guid>
-			<pubDate>Sun, 5 Mar 2023 18:24:27 CST</pubDate>
-		</item>
-		<item>
 			<title>Update: Persona 5 Morgana Van</title>
 			<link>https://revoltcars.tk/cars08.html#p5morgana</link>
-			<description>Tail (tail.prm) is now autoshaded, looks better</description>
-			<guid isPermaLink="false">fe36cea1-ddea-4f43-bb28-83e8af287b97</guid>
-			<pubDate>Wed, 8 Feb 2023 21:05:15 CST</pubDate>
+			<description>Improved collision to avoid bottoming out</description>
+			<guid isPermaLink="false">e9ed89d3-c229-40e3-8cb3-00024eaaa20b</guid>
+			<pubDate>Mon, 6 Mar 2023 11:33:55 CST</pubDate>
 		</item>
 		<item>
 			<title>Update: Murciélago Pursuit</title>
 			<link>https://revoltcars.tk/cars07.html#lamurpur</link>
-			<description>Car now correctly marked as Super Pro</description>
-			<guid isPermaLink="false">710a0fd4-f37d-4f98-b0be-6933e422052f</guid>
-			<pubDate>Tue, 7 Feb 2023 15:24:27 CST</pubDate>
+			<description>Improved collision to avoid bottoming out</description>
+			<guid isPermaLink="false">e1866cd1-93fb-40c7-aaa7-ccc3c54e7985</guid>
+			<pubDate>Mon, 6 Mar 2023 11:29:11 CST</pubDate>
+		</item>
+		<item>
+			<title>Update: Ford Focus 1.8i</title>
+			<link>https://revoltcars.tk/cars07.html#foc1.8igt2</link>
+			<description>Improved collision to avoid bottoming out</description>
+			<guid isPermaLink="false">00d96177-a2d6-4e56-b8d0-a971dfcd0de7</guid>
+			<pubDate>Mon, 6 Mar 2023 11:28:32 CST</pubDate>
+		</item>
+		<item>
+			<title>Update: Team Oreca Viper GTS-R</title>
+			<link>https://revoltcars.tk/cars07.html#viporecgt2</link>
+			<description>Improved collision to avoid bottoming out</description>
+			<guid isPermaLink="false">4c40f023-456c-49b7-a152-f21cc94846d0</guid>
+			<pubDate>Mon, 6 Mar 2023 11:28:23 CST</pubDate>
 		</item>
 		<item>
 			<title>Update: Lamborghini Gallardo</title>
