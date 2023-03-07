@@ -5,7 +5,7 @@
         dataType: 'json',
         success: function (data) {
             console.log(data);
-            data.items.forEach(item => {
+            data.channel.items.forEach(item => {
                 var content = document.getElementById('content');
                 var sOriginalDate = item.pubDate;
                 var oDate = new Date(sOriginalDate);
