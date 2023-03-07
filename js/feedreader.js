@@ -7,7 +7,7 @@
             console.log(data);
             data.items.forEach(item => {
                 var content = document.getElementById('content');
-                var sOriginalDate = item.publishedParsed;
+                var sOriginalDate = item.pubDate;
                 var oDate = new Date(sOriginalDate);
                 var iMonth = oDate.getMonth() + 1;
                 var iDay = oDate.getDate();
