@@ -8,6 +8,20 @@
 		<language>en-us</language>
 		<ttl>10</ttl>
 		<item>
+			<title>Update: Ford F-250 Lowrider</title>
+			<link>https://revoltcars.tk/cars04.html#f250rideslow</link>
+			<description>Improved collision to avoid bottoming out</description>
+			<guid isPermaLink="false">b9ae3f11-ca59-4daa-bb27-927dc8f223a2</guid>
+			<pubDate>Thu, 9 Mar 2023 10:30:55 CST</pubDate>
+		</item>
+		<item>
+			<title>Update: Toyota bB</title>
+			<link>https://revoltcars.tk/cars04.html#toyobbub</link>
+			<description>Improved collision to avoid bottoming out</description>
+			<guid isPermaLink="false">12356089-bb76-4a70-bcc5-c4f38033d79d</guid>
+			<pubDate>Thu, 9 Mar 2023 10:30:42 CST</pubDate>
+		</item>
+		<item>
 			<title>Update: Mercedes CLK DTM '01</title>
 			<link>https://revoltcars.tk/cars02.html#clk_dtm_01</link>
 			<description>Overhauled with usable parameters, carbox, new collisions, colors et cetera</description>
@@ -76,20 +90,6 @@
 			<description>New carbox, colors, shadow- updated parameters, regenerated hull, and other tweaks</description>
 			<guid isPermaLink="false">7c5e98a7-65b4-4d32-8aa4-459cfcd973ab</guid>
 			<pubDate>Mon, 30 Jan 2023 12:52:21 CST</pubDate>
-		</item>
-		<item>
-			<title>Update: Ford F-250 Lowrider</title>
-			<link>https://revoltcars.tk/cars04.html#f250rideslow</link>
-			<description>New carbox, colors, shadow- updated parameters, regenerated hull, and other tweaks</description>
-			<guid isPermaLink="false">264d156c-78c4-4876-bcb3-3fd90fccfb31</guid>
-			<pubDate>Sun, 29 Jan 2023 10:56:53 CST</pubDate>
-		</item>
-		<item>
-			<title>Update: Toyota bB</title>
-			<link>https://revoltcars.tk/cars04.html#toyobbub</link>
-			<description>Updated carbox, new color method (colors may vary slightly from before)</description>
-			<guid isPermaLink="false">b3ac2367-2324-4260-ace3-37f662589c64</guid>
-			<pubDate>Sun, 29 Jan 2023 10:52:35 CST</pubDate>
 		</item>
 		<item>
 			<title>New Release: Carbox 2 &amp; 3</title>
