@@ -8,6 +8,27 @@
 		<language>en-us</language>
 		<ttl>10</ttl>
 		<item>
+			<title>Update: Lamborghini Gallardo</title>
+			<link>https://revoltcars.tk/cars03.html#lambgallar</link>
+			<description>Improved collision to avoid bottoming out</description>
+			<guid isPermaLink="false">794b73b7-58e2-450b-b311-ffd241f0df61</guid>
+			<pubDate>Fri, 10 Mar 2023 10:01:51 CST</pubDate>
+		</item>
+		<item>
+			<title>Update: Honda CR-X SiR</title>
+			<link>https://revoltcars.tk/cars03.html#honceerx</link>
+			<description>Improved collision to avoid bottoming out</description>
+			<guid isPermaLink="false">4e8f1056-8113-41d6-ab32-e85054f27751</guid>
+			<pubDate>Fri, 10 Mar 2023 10:01:34 CST</pubDate>
+		</item>
+		<item>
+			<title>Update: Skyline H/T 2000GT-R</title>
+			<link>https://revoltcars.tk/cars02.html#nisht2000gt-r</link>
+			<description>Improved collision to avoid bottoming out</description>
+			<guid isPermaLink="false">90d4773f-37fc-41ae-993a-f032adce5904</guid>
+			<pubDate>Fri, 10 Mar 2023 10:01:04 CST</pubDate>
+		</item>
+		<item>
 			<title>Update: Ford F-250 Lowrider</title>
 			<link>https://revoltcars.tk/cars04.html#f250rideslow</link>
 			<description>Improved collision to avoid bottoming out</description>
@@ -69,27 +90,6 @@
 			<description>Improved collision to avoid bottoming out</description>
 			<guid isPermaLink="false">4c40f023-456c-49b7-a152-f21cc94846d0</guid>
 			<pubDate>Mon, 6 Mar 2023 11:28:23 CST</pubDate>
-		</item>
-		<item>
-			<title>Update: Lamborghini Gallardo</title>
-			<link>https://revoltcars.tk/cars03.html#lambgallar</link>
-			<description>New carbox, colors, shadow- updated parameters, regenerated hull, and PRM fixes</description>
-			<guid isPermaLink="false">3ed6a817-0576-4bdf-a2d2-878c166cdbe7</guid>
-			<pubDate>Sun, 5 Feb 2023 12:52:47 CST</pubDate>
-		</item>
-		<item>
-			<title>Update: Skyline H/T 2000GT-R</title>
-			<link>https://revoltcars.tk/cars02.html#nisht2000gt-r</link>
-			<description>Removed backface culling from steering wheel texture</description>
-			<guid isPermaLink="false">1b8c72b7-0efe-4f2b-b7c4-f24129fcb102</guid>
-			<pubDate>Mon, 30 Jan 2023 12:53:48 CST</pubDate>
-		</item>
-		<item>
-			<title>Update: Honda CR-X SiR</title>
-			<link>https://revoltcars.tk/cars03.html#honceerx</link>
-			<description>New carbox, colors, shadow- updated parameters, regenerated hull, and other tweaks</description>
-			<guid isPermaLink="false">7c5e98a7-65b4-4d32-8aa4-459cfcd973ab</guid>
-			<pubDate>Mon, 30 Jan 2023 12:52:21 CST</pubDate>
 		</item>
 		<item>
 			<title>New Release: Carbox 2 &amp; 3</title>
