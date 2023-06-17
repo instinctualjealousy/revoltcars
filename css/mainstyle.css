@@ -173,9 +173,44 @@ a:active {
 	padding: 10px;
 }
 
+.openbtn {
+	-webkit-text-stroke-color: rgb(32, 32, 32);
+	-webkit-text-stroke-width: 0.01em;
+	font-size: 2.5em;
+	font-weight: bold;
+	position: fixed;
+	text-decoration: none;
+	top: 0;
+}
+
 .shadowfill {
 	background-color: rgb(16, 16, 16);
 }
+
+.sidenav {
+	background-color: #111;
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	transition: 0.5s;
+	width: 0;
+	z-index: 1;
+}
+
+.sidenav .closebtn {
+	-webkit-text-stroke-color: rgb(32, 32, 32);
+	-webkit-text-stroke-width: 0.01em;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin-left: 20%;
+	position: absolute;
+	right: 10%;
+	text-decoration: none;
+	top: 0;
+}
+
 
 .tutbase {
 	font-family: Calibri, Arial, sans-serif;
