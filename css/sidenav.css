@@ -1,10 +1,9 @@
 body {
-	margin: 0;
+	margin-top: 0;
 }
 
 table td {
 	font-family: "Segoe UI", "MS Sans Serif", sans-serif;
-	font-size: 1em;
 	padding: 1em;
 }
 

@@ -39,7 +39,7 @@
                 var ordinalDate = month + ' ' + day + nthNumber(day) + ', ' + year;
                 var newItem = "";
                 newItem += "<div class=\"container\" id=\"item\"><a href=\"" + item.link + "\"><h4><span>" + item.title + "</span></a><span style=\"float: right;\">(" + ordinalDate + ")</span></h4>";
-                newItem += item.description + "</div>";
+                newItem += "<p style=\"width: 60%;\">" + item.description + "</p></div>";
                 content.insertAdjacentHTML('beforeend', newItem);
             });
         }

@@ -1,14 +1,8 @@
-<!DOCTYPE HTML>
-<html dir="ltr" lang="en-us">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta http-equiv="content-type" content=
-  "text/html; charset=utf-8">
-  <link rel="shortcut icon" href="assets/favicon.ico?v=1.0" type=
-  "image/vnd.microsoft.icon">
-  <link rel="icon" href="assets/favicon.ico?v=1.0" type=
-  "image/vnd.microsoft.icon">
-  <link rel="alternate" type="application/rss+xml" title=
-  "ARVC New/Updated Content" href="updates.rss">
+  <meta content="text/html; charset=utf-8" http-equiv=
+  "content-type">
   <title>Adamodell's Re-Volt Cars & More</title>
   <meta content="Adam O'Dell" name="author">
   <meta content=
@@ -17,10 +11,27 @@
   <meta content=
   "Re-Volt,Adamodell,Acclaim,conversions,1999,NFS4,RC,radio-controlled,remote-controlled"
   name="keywords">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href=
   "css/mainstyle.min.css">
+  <script src=
+  "https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity=
+  "sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+  crossorigin="anonymous"></script>
+  <script src=
+  "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity=
+  "sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src=
+  "https://www.gstatic.com/charts/loader.js"></script>
   <script type="text/javascript" src=
   "js/splashcycle.min.js"></script>
+  <script type="text/javascript" src=
+  "js/feedreader.min.js"></script>
   <script type="text/javascript" src="js/popout.min.js"></script>
 </head>
 <body>
@@ -30,54 +41,99 @@
     "height: 100%;">
     </object>
   </div><a href="#" class="openbtn" onclick="openNav()">☰</a>
-  <div>
-    <table class="landtable cellfill">
-      <tbody>
-        <tr class="inlinecenter">
-          <td class="landtdmod"><span><a href=
-          "https://forum.rvgl.org/" target="_blank"><img title=
-          "The Re-Volt Hideout" src="assets/rvhideout.png" height=
-          "40" width="115"></a><a href="themeandme/" target=
-          "_blank"><img title="TheMeandMe.de" src=
-          "assets/meandme.png" height="40" width="115"></a><a href=
-          "riffraff/" target="_blank"><img title=
-          "RiffRaff's Cars and Tracks" src="assets/riffraff.png"
-          height="40" width="115"></a><a href="aeonica/" target=
-          "_blank"><img title="Aeon's Re-Volt Cars" src=
-          "assets/aeonica.png" height="40" width=
-          "115"></a></span></td>
-        </tr>
-        <tr class="inlinecenter">
-          <td id="landsplash" class="landtdmod"><span><a href=
-          "updates.html"><img title=
-          "Welcome to Adamodell's Re-Volt Cars!" src=
-          "assets/landoverlay.png"></a></span></td>
-        </tr>
-        <tr class="inlinecenter">
-          <td class="landtdmod"><span><a href=
-          "updates.html"><img title="Main Page" src=
-          "assets/mainpage.png" height="40" width=
-          "115"></a><a href="http://adamodell.vndv.com/forum"></a><a href="tools/"><img title="Tools/Miscellaneous"
-          src="assets/tools.png" height="40" width=
-          "115"></a><a href="gallery/" target="_blank"><img title=
-          "Photo Gallery" src="assets/gallery.png" height="40"
-          width="115"></a><a href=
-          "https://amberoftheland.bandcamp.com/" target=
-          "_blank"><img title="Bandcamp" src="assets/bandcamp.png"
-          height="40" width="115"></a><a href=
-          "https://steamcommunity.com/id/damn_fourth_chaos_emerald/"
-          target="_blank"><img title="Steam" src="assets/steam.png"
-          height="40" width="115"></a></span></td>
-        </tr>
-        <tr class="inlinecenter">
-          <td class="landtdmod landtext"><span>Main page design
-          inspired the themeandme.de, as well as my old 2008
-          page.<br>
-          If you find any dead links or annoyances, I would
-          appreciate your input.</span><br></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+  <table>
+    <tbody>
+      <tr>
+        <td class="shadowfill">
+          <h1>Adamodell's <img src="assets/re-volt.png"> Cars &
+          More</h1>
+          <h3>The Re-Volt Legends Will Most Definitely Die But
+          Hopefully Not Soon</h3><a class="infobase" href=
+          "https://github.com/instinctualjealousy/revoltcars/commits/main"
+          target="_blank">commit history</a>
+        </td>
+      </tr>
+      <tr class="inlinecenter">
+        <td class="cellfill landtdmod"><span><a href=
+        "https://forum.rvgl.org/" target="_blank"><img title=
+        "The Re-Volt Hideout" src="assets/rvhideout.png" height=
+        "40" width="115"></a><a href="themeandme/" target=
+        "_blank"><img title="TheMeandMe.de" src=
+        "assets/meandme.png" height="40" width="115"></a><a href=
+        "riffraff/" target="_blank"><img title=
+        "RiffRaff's Cars and Tracks" src="assets/riffraff.png"
+        height="40" width="115"></a><a href="aeonica/" target=
+        "_blank"><img title="Aeon's Re-Volt Cars" src=
+        "assets/aeonica.png" height="40" width=
+        "115"></a></span></td>
+      </tr>
+      <tr class="inlinecenter">
+        <td id="landsplash" class="cellfill landtdmod">
+        <span><img title="Welcome to Adamodell's Re-Volt Cars!"
+        src="assets/landoverlay.png" class="landimg"></span></td>
+      </tr>
+      <tr class="inlinecenter">
+        <td class="cellfill landtdmod"><span><a href=
+        "tools/"><img title="Tools/Miscellaneous" src=
+        "assets/tools.png" height="40" width="115"></a><a href=
+        "gallery/" target="_blank"><img title="Photo Gallery" src=
+        "assets/gallery.png" height="40" width="115"></a><a href=
+        "https://amberoftheland.bandcamp.com/" target=
+        "_blank"><img title="Bandcamp" src="assets/bandcamp.png"
+        height="40" width="115"></a><a href=
+        "https://steamcommunity.com/id/damn_fourth_chaos_emerald/"
+        target="_blank"><img title="Steam" src="assets/steam.png"
+        height="40" width="115"></a></span></td>
+      </tr>
+      <tr class="inlinecenter">
+        <td class="shadowfill landtdmod landtext"><span>Main page
+        design inspired the themeandme.de, as well as my old 2008
+        page.<br>
+        If you find any dead links or annoyances, I would
+        appreciate your input.</span><br></td>
+      </tr>
+      <tr>
+        <td class="cellfill infobase">
+          <h2>Updates</h2>
+          <h4>(January 6th, 2023)</h4>
+          <p>I now have a much wider selection of cars that were
+          originally omitted from this site. Cars will get updated
+          incrementally rather than discretely versioned. Pictures
+          may not always be fully representative.</p>
+          <h4>(January 1st, 2023)</h4>
+          <p>The Me and Me's website backup is now up. Not all zips
+          may be originals, and some minor fixes may still be
+          required. I restored saver's and Jam's bios, but I
+          removed contact information. I hope you enjoy it!</p>
+          <hr>
+          <h2><a href="updates.rss"><img src="assets/rssfeed.svg"
+          style="height: 0.7em; width: 0.7em;" title=
+          "Open RSS feed directly (feed reader required)"></a> RSS
+          Feed</h2>
+          <div id="content"></div>
+        </td>
+      </tr>
+      <tr>
+        <td class="shadowfill infobase">
+          <h2>Contact</h2>
+          <p>If you wish to contact me, there's a few options:</p>
+          <ul>
+            <li>Via my public <a href=
+            "mailto:metallicafan128@gmail.com?Subject=Hi" target=
+            "_top">e-mail account</a>
+            </li>
+            <li>Extensibly with <a href=
+            "xmpp:adamu-kun@magicbroccoli.de" target=
+            "_top">XMPP</a>
+            </li>
+            <li>And finally, my <a href=
+            "skype:instinctualjealousy?chat" target=
+            "_top">Skype</a> account! (chat)
+            </li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 </body>
 </html>
