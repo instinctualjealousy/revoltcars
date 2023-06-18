@@ -4,18 +4,11 @@ body {
 
 table td {
 	font-family: "Segoe UI", "MS Sans Serif", sans-serif;
-	font-size: 0.95em;
+	font-size: 1em;
+	padding: 1em;
 }
 
 a {
-	font-size: 1.15em;
+	font-size: 1.2em;
 	font-weight: bold;
-}
-
-img {
-	display: block;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	width: 95%;
 }

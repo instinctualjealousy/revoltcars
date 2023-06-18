@@ -5,8 +5,10 @@ body {
 	background-position: 320px;
 	background-repeat: repeat;
 	color: rgb(186, 186, 186);
-	margin-bottom: 30px;
-	margin-top: 30px;
+	margin-bottom: 4em;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 4em;
 	scrollbar-arrow-color: #e33737;
 	scrollbar-face-color: #4b4b4b;
 	scrollbar-track-color: #000000;
@@ -64,56 +66,56 @@ body {
 }
 
 table {
-	border-spacing: 0px;
-	box-shadow: 0pt 0pt 10px black;
+	border-spacing: 0;
+	box-shadow: 0 0 1em black;
 	float: center;
 	margin: auto;
-	max-width: 100%;
+	max-width: 60%;
 	text-align: left;
-	width: 900px;
+	width: auto;
 }
 
 table td {
 	border: 1px solid black;
-	padding: 16px;
+	padding: 1em;
 }
 
 p {
-	margin-top: 0px;
+	margin-top: 0;
 }
 
 h1 {
 	color: rgb(204, 204, 204);
 	font-family: Candara, Verdana, sans-serif;
-	margin: 0px;
+	margin: 0;
 }
 
 h2 {
 	color: rgb(204, 204, 204);
 	font-family: Calibri, Arial, sans-serif;
 	font-weight: bold;
-	margin: 0px;
+	margin: 0;
 }
 
 h3 {
 	color: rgb(153, 153, 153);
 	font-family: Consolas, "Courier New", monospace;
 	font-style: italic;
-	margin: 0px;
+	margin: 0;
 }
 
 h4 {
 	color: rgb(21, 185, 221);
 	font-family: "Segoe UI", "MS Sans Serif", sans-serif;
 	font-size: 1.1em;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 h5 {
 	color: rgb(153, 153, 153);
 	font-family: Consolas, "Courier New", monospace;
 	font-size: 0.95em;
-	margin-top: 0px;
+	margin-top: 0;
 }
 
 a:link,
@@ -160,22 +162,23 @@ a:active {
 .landtable {
 	max-width: 100%;
 	table-layout: fixed;
-	width: 800px;
+	width: 60%;
 }
 
 .landtdmod {
 	border: none;
-	padding: 0px;
+	padding: 0;
 }
 
 .landtext {
 	font-family: Trebuchet MS, sans-serif;
-	padding: 10px;
+	padding: 1em;
 }
 
 .openbtn {
-	-webkit-text-stroke-color: rgb(32, 32, 32);
-	-webkit-text-stroke-width: 0.01em;
+	-webkit-text-stroke-color: rgb(20, 20, 20);
+	-webkit-text-stroke-width: 0.005em;
+	background-color: rgb(32, 32, 32);
 	font-size: 2.5em;
 	font-weight: bold;
 	position: fixed;
@@ -188,7 +191,6 @@ a:active {
 }
 
 .sidenav {
-	background-color: #111;
 	height: 100%;
 	left: 0;
 	overflow: hidden;
@@ -200,11 +202,10 @@ a:active {
 }
 
 .sidenav .closebtn {
-	-webkit-text-stroke-color: rgb(32, 32, 32);
-	-webkit-text-stroke-width: 0.01em;
+	-webkit-text-stroke-color: rgb(20, 20, 20);
+	-webkit-text-stroke-width: 0.005em;
 	font-size: 2.5em;
 	font-weight: bold;
-	margin-left: 20%;
 	position: absolute;
 	right: 10%;
 	text-decoration: none;
@@ -226,4 +227,31 @@ a:active {
 .vehlist {
 	font-family: "Lucida Console", "Courier New", monospace;
 	font-size: 0.95em;
+}
+
+@media only screen and (max-width: 1250px) {
+	body {
+		background-color: rgb(32, 32, 32);
+		background-image: none;
+		margin-bottom: 0;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 4em;
+	}
+
+	table {
+		box-shadow: 0 0 0 black;
+		margin: 0;
+		max-width: 100%;
+		width: 100%;
+
+	}
+
+	table td {
+		padding: 2em;
+	}
+
+	.openbtn {
+		left: 0.4em;
+	}
 }

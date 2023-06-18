@@ -8,12 +8,16 @@
 	background: rgb(106, 32, 32) !important;
 }
 
+table {
+	max-width: 100%;
+}
+
 img {
 	background-image: url(../assets/static.png);
 	border-style: solid;
-	border-width: 2px;
-	height: 250px;
-	width: 250px;
+	border-width: 0.3em;
+	height: 90%;
+	width: 90%;
 }
 
 .addonlink {
@@ -37,21 +41,22 @@ img {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	gap: 8px;
+	gap: 2em;
 	height: 100%;
 	justify-content: center;
-	padding: 0px;
+	max-width: 70em;
+	padding: 0;
 	text-align: center;
 }
 
 .flex-container>div {
 	background: rgb(54, 54, 54);
-	box-shadow: 0pt 0pt 10px black;
+	box-shadow: 0 0 1em black;
 	font-family: "Segoe UI", "MS Sans Serif", sans-serif;
 	font-size: 0.8em;
 	font-weight: bold;
-	margin: 2px;
-	padding: 12px;
+	padding: 0.8em;
+	width: 25em;
 }
 
 .rightalign {
