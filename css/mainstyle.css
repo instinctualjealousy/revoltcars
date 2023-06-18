@@ -139,6 +139,11 @@ a:active {
 	display: none;
 }
 
+object {
+	height: 100%;
+	width: 100%;
+}
+
 .cellfill {
 	background-color: rgb(32, 32, 32);
 }
@@ -208,7 +213,6 @@ a:active {
 	text-decoration: none;
 	top: 0;
 }
-
 
 .tutbase {
 	font-family: Calibri, Arial, sans-serif;
