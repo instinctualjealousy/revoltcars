@@ -4,6 +4,7 @@ body {
 
 table td {
 	font-family: "Segoe UI", "MS Sans Serif", sans-serif;
+	font-weight: normal;
 	padding: 1em;
 }
 

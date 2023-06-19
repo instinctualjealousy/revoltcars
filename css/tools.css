@@ -6,8 +6,10 @@ body {
 	background-size: 100% 100%;
 	color: rgb(186, 186, 186);
 	font-family: Consolas, "Courier New", monospace;
-	margin-left: 1em;
-	margin-right: 1em;
+	margin-bottom: 4em;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-top: 2em;
 	scrollbar-arrow-color: #4af626;
 	scrollbar-face-color: #4b4b4b;
 	scrollbar-track-color: #000000;

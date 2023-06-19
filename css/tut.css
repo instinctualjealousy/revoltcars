@@ -8,3 +8,8 @@ body {
 img {
 	max-width: 100%;
 }
+
+.vehlist {
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 0.95em;
+}

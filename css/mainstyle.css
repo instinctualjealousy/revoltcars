@@ -1,10 +1,12 @@
 body {
 	background-attachment: fixed;
-	background-color: rgb(0, 0, 0);
+	background-color: rgb(19, 22, 30);
 	background-image: url(../assets/background.webp);
 	background-position: 320px;
 	background-repeat: repeat;
 	color: rgb(186, 186, 186);
+	font-family: Calibri, Arial, sans-serif;
+	font-weight: bold;
 	margin-bottom: 4em;
 	margin-left: 1em;
 	margin-right: 1em;
@@ -68,15 +70,13 @@ body {
 table {
 	border-spacing: 0;
 	box-shadow: 0 0 1em black;
-	float: center;
 	margin: auto;
 	max-width: 50%;
-	min-width: 50%;
-	text-align: left;
-	width: auto;
+	min-width: 50em;
 }
 
 table td {
+	background-color: rgb(32, 32, 32);
 	border: 1px solid black;
 	padding: 1em;
 }
@@ -102,8 +102,7 @@ h2 {
 h3 {
 	color: rgb(153, 153, 153);
 	font-family: Consolas, "Courier New", monospace;
-	font-size: 1.2em;
-	font-style: italic;
+	font-size: 1.1em;
 	margin: 0;
 }
 
@@ -111,7 +110,7 @@ h4 {
 	color: rgb(21, 185, 221);
 	font-family: "Segoe UI", "MS Sans Serif", sans-serif;
 	font-size: 1.1em;
-	margin-bottom: 0;
+	margin: 0;
 }
 
 h5 {
@@ -134,47 +133,24 @@ a:active {
 	color: rgb(135, 135, 135);
 }
 
-#prev,
-#next {
-	display: none;
-}
-
 object {
 	height: 100%;
 	width: 100%;
 }
 
-.cellfill {
-	background-color: rgb(32, 32, 32);
+#prev,
+#next {
+	display: none;
 }
 
 .hilitefill {
 	background-color: rgb(54, 54, 54);
 }
 
-.infobase {
-	font-family: Calibri, Arial, sans-serif;
-	font-weight: bold;
-	line-height: 1.2em;
-}
-
-.inlinecenter {
-	text-align: center;
-}
-
-.landimg {
-	max-width: 100%;
-}
-
 .landtdmod {
 	border: none;
 	padding: 0;
-
-}
-
-.landtext {
-	font-family: Trebuchet MS, sans-serif;
-	padding: 1em;
+	text-align: center;
 }
 
 .openbtn {
@@ -214,30 +190,18 @@ object {
 	top: 0;
 }
 
-.tutbase {
-	font-family: Calibri, Arial, sans-serif;
-	font-size: 1.1em;
-}
-
-.vehlist {
-	font-family: "Lucida Console", "Courier New", monospace;
-	font-size: 0.95em;
-}
-
 @media only screen and (max-width: 1250px) {
 	body {
 		margin-bottom: 0;
 		margin-left: 0;
 		margin-right: 0;
-		margin-top: 4em;
 	}
 
 	table {
 		box-shadow: 0 0 0 black;
 		margin: 0;
 		max-width: 100%;
-		width: 100%;
-
+		min-width: 100%;
 	}
 
 	table td {
