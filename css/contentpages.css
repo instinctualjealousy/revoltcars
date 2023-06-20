@@ -73,7 +73,7 @@ img {
 
 	.flex-container {
 		background-color: transparent;
-		box-shadow: 0 0 0 black;
+		box-shadow: 0 0 0;
 		justify-content: center;
 		margin: 0;
 		padding: 0;
