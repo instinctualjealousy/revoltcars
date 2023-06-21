@@ -157,6 +157,9 @@ object {
 	-webkit-text-stroke-color: rgb(20, 20, 20);
 	-webkit-text-stroke-width: 0.005em;
 	background-color: rgb(32, 32, 32);
+	border: 1px solid black;
+	border-radius: 0.1em;
+	box-shadow: 0 0 1em black;
 	font-size: 2.5em;
 	font-weight: bold;
 	position: fixed;
