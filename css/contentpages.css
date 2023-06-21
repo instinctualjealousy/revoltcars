@@ -4,10 +4,6 @@
 	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-:target {
-	background: rgb(106, 32, 32) !important;
-}
-
 img {
 	background-image: url(../assets/static.png);
 	border-style: solid;
@@ -55,8 +51,7 @@ img {
 }
 
 .headerpad {
-	margin-left: 15%;
-	margin-right: 15%;
+	margin: 0 15%;
 }
 
 .rightalign {
@@ -66,9 +61,7 @@ img {
 
 @media only screen and (max-width: 1410px) {
 	body {
-		margin-bottom: 4em;
-		margin-left: 1em;
-		margin-right: 1em;
+		margin: 4em 1em 4em;
 	}
 
 	.flex-container {

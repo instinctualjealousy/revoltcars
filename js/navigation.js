@@ -18,7 +18,7 @@ let touchstartX = 0;
 let touchendX = 0;
 
 function checkDirection() {
-    if (touchendX + 100 < touchstartX)
+    if (touchendX + 40 < touchstartX)
         var href, selector = "#next";
     if (selector) {
         href = $(selector).attr("href");
@@ -26,7 +26,7 @@ function checkDirection() {
             window.location = href;
         }
     }
-    if (touchendX - 100 > touchstartX)
+    if (touchendX - 40 > touchstartX)
         var href, selector = "#prev";
     if (selector) {
         href = $(selector).attr("href");
