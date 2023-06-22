@@ -224,6 +224,7 @@ object {
 		border: 1px solid black;
 		box-shadow: 0 0 1em black;
 		display: block;
+		font-size: 0.9em;
 		height: 4em;
 		left: 0;
 		line-height: 4em;
