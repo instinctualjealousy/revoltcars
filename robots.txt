@@ -5,6 +5,20 @@ User-agent: archive.org_bot
 Disallow:
 
 User-agent: *
+Disallow: /aeonica/
+Disallow: /assets/
+Disallow: /carimg/
+Disallow: /carzips/
+Disallow: /css/
+Disallow: /gallery/
+Disallow: /gt2torv/
+Disallow: /holes/
+Disallow: /js/
+Disallow: /riffraff/
+Disallow: /themeandme/
+Disallow: /tools/
+Disallow: /trackimg/
+Disallow: /trackzips/
 Disallow: /cars01.html
 Disallow: /cars02.html
 Disallow: /cars03.html
@@ -13,19 +27,5 @@ Disallow: /cars05.html
 Disallow: /cars06.html
 Disallow: /cars07.html
 Disallow: /cars08.html
-Disallow: /left1.htm
-Disallow: /main.html
-Disallow: /right1.htm
+Disallow: /sidenav.html
 Disallow: /tracks01.html
-Disallow: /aeonica/
-Disallow: /assets/
-Disallow: /carimg/
-Disallow: /css/
-Disallow: /gallery/
-Disallow: /holes/
-Disallow: /js/
-Disallow: /riffraff/
-Disallow: /themeandme/
-Disallow: /tools/
-Disallow: /trackimg/
-Disallow: /trackzips/

@@ -68,6 +68,10 @@ body {
 	background: rgb(106, 32, 32) !important;
 }
 
+#menubar {
+	display: none;
+}
+
 table {
 	border-spacing: 0;
 	box-shadow: 0 0 1em black;
@@ -117,7 +121,6 @@ h5 {
 	color: rgb(153, 153, 153);
 	font-family: Consolas, "Courier New", monospace;
 	font-size: 0.9em;
-	margin-top: 0;
 }
 
 a:link,
@@ -154,14 +157,12 @@ object {
 }
 
 .openbtn {
-	-webkit-text-stroke-color: rgb(20, 20, 20);
-	-webkit-text-stroke-width: 0.005em;
 	background-color: rgb(32, 32, 32);
-	border: 1px solid black;
 	border-radius: 0.1em;
+	border: 1px solid black;
 	box-shadow: 0 0 1em black;
 	font-size: 2.5em;
-	font-weight: bold;
+	font-weight: normal;
 	padding: 0 0.1em 0;
 	position: fixed;
 	text-decoration: none;
@@ -187,7 +188,6 @@ object {
 	-webkit-text-stroke-color: rgb(20, 20, 20);
 	-webkit-text-stroke-width: 0.005em;
 	font-size: 2.5em;
-	font-weight: bold;
 	position: absolute;
 	right: 0.6em;
 	text-decoration: none;
@@ -196,7 +196,7 @@ object {
 
 @media only screen and (max-width: 1250px) {
 	body {
-		margin: 4em 0 0;
+		margin: 0;
 	}
 
 	table {
@@ -207,10 +207,44 @@ object {
 	}
 
 	table td {
+		background-color: rgba(32, 32, 32, .6);
 		padding: 2em;
 	}
 
+	#fullhead {
+		display: none;
+	}
+
+	#main {
+		margin-top: 4em;
+	}
+
+	#menubar {
+		background-color: rgb(32, 32, 32);
+		border: 1px solid black;
+		box-shadow: 0 0 1em black;
+		display: block;
+		height: 4em;
+		left: 0;
+		line-height: 4em;
+		margin: 0;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+
+	#menubutton {
+		display: none;
+	}
+
 	.openbtn {
+		background-color: transparent;
+		border-radius: 0;
+		border: 0;
+		box-shadow: 0 0 0;
 		left: 0.4em;
+		padding: 0;
+		position: absolute;
+		top: 0;
 	}
 }

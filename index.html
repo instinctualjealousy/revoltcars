@@ -31,8 +31,6 @@
   crossorigin="anonymous"></script>
   <script type="text/javascript" src=
   "https://www.gstatic.com/charts/loader.js"></script>
-  <script type="text/javascript" src=
-  "js/navigation.min.js"></script>
   <script type="text/javascript" src="js/popout.min.js"></script>
   <script>
   document.write('<style>#landsplash{background-image: url(\'assets/landing/splash'+Math.round(Math.random()*5+1)+'.jpg\'); background-repeat: no-repeat; background-position: center;}</style>');
@@ -49,101 +47,101 @@
     <a href="javascript:void(0)" class="closebtn" onclick=
     "closeNav()">✖</a> <object data="sidenav.html">
     </object>
-  </div><a href="#" class="openbtn" onclick="openNav()">☰</a>
-  <table>
-    <tbody>
-      <tr>
-        <td class="shadowfill">
-          <h1>Main</h1>
-          <h3>horizontal swipe or arrows &lt;- -&gt; for quick page
-          nav</h3>
-        </td>
-      </tr>
-      <tr>
-        <td class="landtdmod"><span><a href=
-        "https://forum.rvgl.org/"><img title="The Re-Volt Hideout"
-        src="assets/rvhideout.png" height="40" width=
-        "115"></a><a href="themeandme/index.html"><img title=
-        "TheMeandMe.de" src="assets/meandme.png" height="40" width=
-        "115"></a><a href="riffraff/index.html"><img title=
-        "RiffRaff's Cars and Tracks" src="assets/riffraff.png"
-        height="40" width="115"></a><a href=
-        "aeonica/index.html"><img title="Aeon's Re-Volt Cars" src=
-        "assets/aeonica.png" height="40" width=
-        "115"></a></span></td>
-      </tr>
-      <tr>
-        <td id="landsplash" class="landtdmod"><span><img title=
-        "Welcome to Adamodell's Re-Volt Cars!" src=
-        "assets/landoverlay.png" style=
-        "max-width: 100%;"></span></td>
-      </tr>
-      <tr>
-        <td class="landtdmod"><span><a href=
-        "tools/index.html"><img title="Tools/Miscellaneous" src=
-        "assets/tools.png" height="40" width="115"></a><a href=
-        "gallery/index.html"><img title="Photo Gallery" src=
-        "assets/gallery.png" height="40" width="115"></a><a href=
-        "https://amberoftheland.bandcamp.com/"><img title=
-        "Bandcamp" src="assets/bandcamp.png" height="40" width=
-        "115"></a><a href=
-        "https://steamcommunity.com/id/damn_fourth_chaos_emerald/"><img title="Steam"
-        src="assets/steam.png" height="40" width=
-        "115"></a></span></td>
-      </tr>
-      <tr>
-        <td class="shadowfill"><span>Main page design inspired the
-        themeandme.de, as well as my old 2008 page.<br>
-        If you find any dead links or annoyances, I would
-        appreciate your input.<br>
-        <a href=
-        "https://github.com/instinctualjealousy/revoltcars/commits/main">
-        commit history</a></span></td>
-      </tr>
-      <tr>
-        <td>
-          <h2 id="updates">Updates</h2>
-          <h4>(January 6th, 2023)</h4>
-          <p>I now have a much wider selection of cars that were
-          originally omitted from this site. Cars will get updated
-          incrementally rather than discretely versioned. Pictures
-          may not always be fully representative.</p>
-          <h4>(January 1st, 2023)</h4>
-          <p>The Me and Me's website backup is now up. Not all zips
-          may be originals, and some minor fixes may still be
-          required. I restored saver's and Jam's bios, but I
-          removed contact information. I hope you enjoy it!</p>
-          <hr>
-          <h2 id="rssfeed"><a href="updates.rss"><img src=
-          "assets/rssfeed.svg" style="height: 0.7em; width: 0.7em;"
-          title=
-          "Open RSS feed directly (feed reader required)"></a> RSS
-          Feed</h2>
-          <div id="content"></div>
-        </td>
-      </tr>
-      <tr>
-        <td class="shadowfill">
-          <h2 id="contactinfo">Contact</h2>
-          <p>If you wish to contact me, there's a few options:</p>
-          <ul>
-            <li>Via my public <a href=
-            "mailto:metallicafan128@gmail.com?Subject=Hi" target=
-            "_top">e-mail account</a>
-            </li>
-            <li>Extensibly with <a href=
-            "xmpp:adamu-kun@magicbroccoli.de" target=
-            "_top">XMPP</a>
-            </li>
-            <li>And finally, my <a href=
-            "skype:instinctualjealousy?chat" target=
-            "_top">Skype</a> account! (chat)
-            </li>
-          </ul>
-        </td>
-      </tr>
-    </tbody>
-  </table><a id="prev" href="tracks01.html" target="_self"></a>
-  <a id="next" href="cars01.html" target="_self"></a>
+  </div>
+  <div id="menubutton">
+    <a href="#" class="openbtn" onclick="openNav()">☰</a>
+  </div>
+  <div id="menubar">
+    <a href="#" class="openbtn" onclick="openNav()">☰</a>
+    <h1 style="text-align: center;">Main</h1>
+  </div>
+  <div id="main">
+    <table>
+      <tbody>
+        <tr>
+          <td class="shadowfill">
+            <h1 id="fullhead">Main</h1>
+            <h3>The Re-Volt Legends Will Most Certainly Die
+            (TBD)</h3>
+          </td>
+        </tr>
+        <tr>
+          <td id="landsplash" class="landtdmod"><span><img title=
+          "Welcome to Adamodell's Re-Volt Cars!" src=
+          "assets/landoverlay.png" style=
+          "max-width: 100%;"></span></td>
+        </tr>
+        <tr>
+          <td class="landtdmod"><span><a href=
+          "https://forum.rvgl.org/"><img title=
+          "The Re-Volt Hideout" src="assets/rvhideout.png" height=
+          "40" width="115"></a><a href=
+          "themeandme/index.html"><img title="TheMeandMe.de" src=
+          "assets/meandme.png" height="40" width="115"></a><a href=
+          "riffraff/index.html"><img title=
+          "RiffRaff's Cars and Tracks" src="assets/riffraff.png"
+          height="40" width="115"></a><a href=
+          "aeonica/index.html"><img title="Aeon's Re-Volt Cars"
+          src="assets/aeonica.png" height="40" width=
+          "115"></a></span></td>
+        </tr>
+        <tr>
+          <td class="shadowfill"><span>Main page design inspired
+          the themeandme.de, as well as my old 2008 page.<br>
+          If you find any dead links or annoyances, I would
+          appreciate your input.<br>
+          <a href=
+          "https://github.com/instinctualjealousy/revoltcars/commits/main">
+          commit history</a></span></td>
+        </tr>
+        <tr>
+          <td>
+            <h2 id="updates">Updates</h2>
+            <h4>(January 6th, 2023)</h4>
+            <p>I now have a much wider selection of cars that were
+            originally omitted from this site. Cars will get
+            updated incrementally rather than discretely versioned.
+            Pictures may not always be fully representative.</p>
+            <h4>(January 1st, 2023)</h4>
+            <p>The Me and Me's website backup is now up. Not all
+            zips may be originals, and some minor fixes may still
+            be required. I restored saver's and Jam's bios, but I
+            removed contact information. I hope you enjoy it!</p>
+            <hr>
+            <h2 id="rssfeed"><a href="updates.rss"><img src=
+            "assets/rssfeed.svg" style=
+            "height: 0.7em; width: 0.7em;" title=
+            "Open RSS feed directly (feed reader required)"></a>
+            RSS Feed</h2>
+            <div id="content"></div>
+          </td>
+        </tr>
+        <tr>
+          <td class="shadowfill">
+            <h2 id="contactinfo">Contact</h2>
+            <p>If you wish to contact me, there's a few
+            options:</p>
+            <ul>
+              <li>Via my public <a href=
+              "mailto:metallicafan128@gmail.com?Subject=Hi"
+                target="_top">e-mail account</a>
+              </li>
+              <li>Release the valve for <a href=
+              "https://steamcommunity.com/id/damn_fourth_chaos_emerald/">
+                Steam</a>
+              </li>
+              <li>Create drama with me on <a href=
+              "https://discord.com/users/830052659817349141">Discord</a>
+              </li>
+              <li>Like a Hipster: Gaiden on <a href=
+              "xmpp:adamu-kun@magicbroccoli.de" target=
+              "_top">XMPP</a>
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </body>
 </html>

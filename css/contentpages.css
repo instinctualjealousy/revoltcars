@@ -59,9 +59,9 @@ img {
 	text-align: right;
 }
 
-@media only screen and (max-width: 1410px) {
+@media only screen and (max-width: 1250px) {
 	body {
-		margin: 4em 1em 4em;
+		margin: 0 1em 4em;
 	}
 
 	.flex-container {
@@ -76,11 +76,5 @@ img {
 	.flex-container>div {
 		background: rgba(32, 32, 32, .5);
 		box-shadow: 0 0 1em black;
-	}
-}
-
-@media only screen and (max-width: 1000px) {
-	h1 {
-		display: none;
 	}
 }
