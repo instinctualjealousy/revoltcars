@@ -234,6 +234,11 @@ object {
 		width: 100%;
 	}
 
+	#menubar>h1 {
+		margin-right: 0.8em;
+		text-align: right;
+	}
+
 	.openbtn {
 		background-color: transparent;
 		border-radius: 0;

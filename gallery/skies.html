@@ -13,12 +13,18 @@
   "../css/mainstyle.min.css">
   <link rel="stylesheet" type="text/css" href=
   "../css/contentpages.min.css">
+  <link rel="stylesheet" type="text/css" href=
+  "../css/colorbox.min.css">
   <script type="text/javascript" src=
   "https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script type="text/javascript" src=
   "../js/navigation.min.js"></script>
   <script type="text/javascript" src=
   "../js/popout.min.js"></script>
+  <script type="text/javascript" src=
+  "../js/colorbox.min.js"></script>
+  <script type="text/javascript" src=
+  "../js/gallery.min.js"></script>
 </head>
 <body>
   <div id="mySidenav" class="sidenav">
@@ -31,18 +37,18 @@
   </div>
   <div id="menubar">
     <a href="#" class="openbtn" onclick="openNav()">☰</a>
-    <h1 style="text-align: center;">Skies of Arcadia</h1>
+    <h1>Skies of Arcadia</h1>
   </div>
   <div id="main">
     <div class="headerpad">
-      <h5 class="rightalign">this is a good one<br>
-      horizontal swipe or arrows &lt;- -&gt; for quick page
-      nav</h5>
+      <h5>this is a good one<br>
+      swipe or arrows for nav, comma and period for <a href=
+      "https://www.jacklmoore.com/colorbox/">colorbox</a> nav</h5>
       <h1 id="fullhead">Skies of Arcadia</h1>
     </div>
     <div class="flex-container">
       <div>
-        <a href=
+        <a class="gallery" href=
         "skies/De%20Loco's%20Battleship%20(Bodied)%20@%20Ixa'Taka.webp">
         <img src=
         "skies/thumbs/De%20Loco's%20Battleship%20(Bodied)%20@%20Ixa'Taka.webp"></a><br>
@@ -50,7 +56,7 @@
         De Loco's Battleship (Bodied) @ Ixa'Taka
       </div>
       <div>
-        <a href=
+        <a class="gallery" href=
         "skies/De%20Loco's%20Battleship%20(Glow-Up)%20@%20Ixa'Taka.webp">
         <img src=
         "skies/thumbs/De%20Loco's%20Battleship%20(Glow-Up)%20@%20Ixa'Taka.webp"></a><br>
@@ -58,31 +64,32 @@
         De Loco's Battleship (Glow-Up) @ Ixa'Taka
       </div>
       <div>
-        <a href=
+        <a class="gallery" href=
         "skies/Delphinus%20@%20The%20Dark%20Rift.webp"><img src=
         "skies/thumbs/Delphinus%20@%20The%20Dark%20Rift.webp"></a><br>
 
         Delphinus @ The Dark Rift
       </div>
       <div>
-        <a href=
+        <a class="gallery" href=
         "skies/Gilder%20@%20Daccat's%20Island.webp"><img src=
         "skies/thumbs/Gilder%20@%20Daccat's%20Island.webp"></a><br>
         Gilder @ Daccat's Island
       </div>
       <div>
-        <a href=
+        <a class="gallery" href=
         "skies/Little%20Jack%20(Magicked)%20@%20Ixa'Taka.webp"><img src="skies/thumbs/Little%20Jack%20(Magicked)%20@%20Ixa'Taka.webp"></a><br>
 
         Little Jack (Magicked) @ Ixa'Taka
       </div>
       <div>
-        <a href="skies/Little%20Jack%20@%20Ixa'Taka.webp"><img src=
+        <a class="gallery" href=
+        "skies/Little%20Jack%20@%20Ixa'Taka.webp"><img src=
         "skies/thumbs/Little%20Jack%20@%20Ixa'Taka.webp"></a><br>
         Little Jack @ Ixa'Taka
       </div>
       <div>
-        <a href=
+        <a class="gallery" href=
         "skies/Vyse%20(In%20Silly%20Underwater%20Suit)%20@%20Mount%20Kazai.webp">
         <img src=
         "skies/thumbs/Vyse%20(In%20Silly%20Underwater%20Suit)%20@%20Mount%20Kazai.webp"></a><br>
@@ -90,12 +97,14 @@
         Vyse (In Silly Underwater Suit) @ Mount Kazai
       </div>
       <div>
-        <a href="skies/Vyse%20@%20Nasrad.webp"><img src=
+        <a class="gallery" href=
+        "skies/Vyse%20@%20Nasrad.webp"><img src=
         "skies/thumbs/Vyse%20@%20Nasrad.webp"></a><br>
         Vyse @ Nasrad
       </div>
       <div>
-        <a href="skies/Vyse%20@%20Ruined%20Nasrad.webp"><img src=
+        <a class="gallery" href=
+        "skies/Vyse%20@%20Ruined%20Nasrad.webp"><img src=
         "skies/thumbs/Vyse%20@%20Ruined%20Nasrad.webp"></a><br>
         Vyse @ Ruined Nasrad
       </div>

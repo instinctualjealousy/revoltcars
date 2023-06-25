@@ -13,12 +13,18 @@
   "../css/mainstyle.min.css">
   <link rel="stylesheet" type="text/css" href=
   "../css/contentpages.min.css">
+  <link rel="stylesheet" type="text/css" href=
+  "../css/colorbox.min.css">
   <script type="text/javascript" src=
   "https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script type="text/javascript" src=
   "../js/navigation.min.js"></script>
   <script type="text/javascript" src=
   "../js/popout.min.js"></script>
+  <script type="text/javascript" src=
+  "../js/colorbox.min.js"></script>
+  <script type="text/javascript" src=
+  "../js/gallery.min.js"></script>
 </head>
 <body>
   <div id="mySidenav" class="sidenav">
@@ -31,18 +37,18 @@
   </div>
   <div id="menubar">
     <a href="#" class="openbtn" onclick="openNav()">☰</a>
-    <h1 style="text-align: center;">Forza Motorsport</h1>
+    <h1>Forza Motorsport</h1>
   </div>
   <div id="main">
     <div class="headerpad">
-      <h5 class="rightalign">snorza motorbored<br>
-      horizontal swipe or arrows &lt;- -&gt; for quick page
-      nav</h5>
+      <h5>snorza motorbored<br>
+      swipe or arrows for nav, comma and period for <a href=
+      "https://www.jacklmoore.com/colorbox/">colorbox</a> nav</h5>
       <h1 id="fullhead">Forza Motorsport</h1>
     </div>
     <div class="flex-container">
       <div>
-        <a href=
+        <a class="gallery" href=
         "forza/FM3-%20Alfa%20Romeo%208C%20Competizione%20@%20Iberian%20International%20Circuit.webp">
         <img src=
         "forza/thumbs/FM3-%20Alfa%20Romeo%208C%20Competizione%20@%20Iberian%20International%20Circuit.webp"></a><br>
@@ -51,7 +57,7 @@
         Circuit
       </div>
       <div>
-        <a href=
+        <a class="gallery" href=
         "forza/FM3-%20Lamborghini%20Diablo%20@%20Amalfi%20Coast.webp">
         <img src=
         "forza/thumbs/FM3-%20Lamborghini%20Diablo%20@%20Amalfi%20Coast.webp"></a><br>
@@ -59,7 +65,7 @@
         FM3: Lamborghini Diablo @ Amalfi Coast
       </div>
       <div>
-        <a href=
+        <a class="gallery" href=
         "forza/FM3-%20McDonalds%20@%20Le%20Mans%20Circuit%20de%20la%20Sarthe.webp">
         <img src=
         "forza/thumbs/FM3-%20McDonalds%20@%20Le%20Mans%20Circuit%20de%20la%20Sarthe.webp"></a><br>
@@ -67,13 +73,13 @@
         FM3: McDonalds @ Le Mans Circuit de la Sarthe
       </div>
       <div>
-        <a href=
+        <a class="gallery" href=
         "forza/FM4-%20Ford%20Ka%20@%20Bernese%20Alps.webp"><img src="forza/thumbs/FM4-%20Ford%20Ka%20@%20Bernese%20Alps.webp"></a><br>
 
         FM4: Ford Ka @ Bernese Alps
       </div>
       <div>
-        <a href=
+        <a class="gallery" href=
         "forza/FM4-%20Shelby%20Daytona%20Coupe%20@%20Circuit%20de%20Barcelona-Catalunya.webp">
         <img src=
         "forza/thumbs/FM4-%20Shelby%20Daytona%20Coupe%20@%20Circuit%20de%20Barcelona-Catalunya.webp"></a><br>
@@ -81,7 +87,7 @@
         FM4: Shelby Daytona Coupe @ Circuit de Barcelona-Catalunya
       </div>
       <div>
-        <a href=
+        <a class="gallery" href=
         "forza/FM7-%20Chevy%20Corvette%20C7.R%20@%20Spa-Francorchamps.webp">
         <img src=
         "forza/thumbs/FM7-%20Chevy%20Corvette%20C7.R%20@%20Spa-Francorchamps.webp"></a><br>
@@ -89,7 +95,7 @@
         FM7: Chevy Corvette C7.R @ Spa-Francorchamps
       </div>
       <div>
-        <a href=
+        <a class="gallery" href=
         "forza/FM7-%20Ford%20RS200%20@%20Yas%20Marina%20Circuit.webp">
         <img src=
         "forza/thumbs/FM7-%20Ford%20RS200%20@%20Yas%20Marina%20Circuit.webp"></a><br>
@@ -97,13 +103,13 @@
         FM7: Ford RS200 @ Yas Marina Circuit
       </div>
       <div>
-        <a href=
+        <a class="gallery" href=
         "forza/FM7-%20Hoonigan%20Focus%20RX%20@%20Dubai.webp"><img src="forza/thumbs/FM7-%20Hoonigan%20Focus%20RX%20@%20Dubai.webp"></a><br>
 
         FM7: Hoonigan Focus RX @ Dubai
       </div>
       <div>
-        <a href=
+        <a class="gallery" href=
         "forza/FM7-%20Lamborghini%20Miura%20@%20Watkins%20Glen.webp">
         <img src=
         "forza/thumbs/FM7-%20Lamborghini%20Miura%20@%20Watkins%20Glen.webp"></a><br>
@@ -111,7 +117,7 @@
         FM7: Lamborghini Miura @ Watkins Glen
       </div>
       <div>
-        <a href=
+        <a class="gallery" href=
         "forza/FM7-%20Nissan%20R380%20A-II%20@%20Virginia%20International%20Raceway.webp">
         <img src=
         "forza/thumbs/FM7-%20Nissan%20R380%20A-II%20@%20Virginia%20International%20Raceway.webp"></a><br>
@@ -119,7 +125,7 @@
         FM7: Nissan R380 A-II @ Virginia International Raceway
       </div>
       <div>
-        <a href=
+        <a class="gallery" href=
         "forza/FM7-%20Nissan%20Skyline%20Super%20Silhouette%20@%20Rio%20de%20Janeiro.webp">
         <img src=
         "forza/thumbs/FM7-%20Nissan%20Skyline%20Super%20Silhouette%20@%20Rio%20de%20Janeiro.webp"></a><br>
@@ -128,6 +134,6 @@
       </div>
     </div>
   </div><a id="prev" href="evolution.html" target="_self"></a>
-  <a id="next" href="gt4.html" target="_self"></a>
+  <a id="next" href="pgr4.html" target="_self"></a>
 </body>
 </html>
