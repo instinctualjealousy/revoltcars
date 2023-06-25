@@ -137,7 +137,7 @@ a:active {
 }
 
 object {
-	height: 100%;
+	height: 100vh;
 	width: 100%;
 }
 
@@ -176,7 +176,6 @@ object {
 .sidenav {
 	height: 100%;
 	left: 0;
-	overflow: hidden;
 	position: fixed;
 	top: 0;
 	transition: 0.5s;
@@ -211,7 +210,8 @@ object {
 		padding: 2em;
 	}
 
-	#fullhead {
+	#fullhead,
+	#menubutton {
 		display: none;
 	}
 
@@ -232,10 +232,6 @@ object {
 		position: fixed;
 		top: 0;
 		width: 100%;
-	}
-
-	#menubutton {
-		display: none;
 	}
 
 	.openbtn {

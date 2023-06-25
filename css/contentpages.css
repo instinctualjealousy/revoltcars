@@ -5,11 +5,8 @@
 }
 
 img {
-	background-image: url(../assets/static.png);
 	border-style: solid;
 	border-width: 0.3em;
-	height: 250px;
-	width: 250px;
 }
 
 .addonlink {
