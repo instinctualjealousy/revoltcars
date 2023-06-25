@@ -7,6 +7,7 @@
 img {
 	border-style: solid;
 	border-width: 0.3em;
+	max-width: 100%;
 }
 
 .addonlink {
@@ -44,6 +45,7 @@ img {
 	font-family: "Segoe UI", "MS Sans Serif", sans-serif;
 	font-size: 0.8em;
 	font-weight: bold;
+	max-width: 90%;
 	padding: 1.5em;
 }
 
