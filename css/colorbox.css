@@ -164,14 +164,15 @@
 }
 
 #cboxPrevious {
-	position: absolute;
-	top: 50%;
-	left: 5px;
-	margin-top: -32px;
+	-webkit-transform: rotate(90deg);
 	background: url(../assets/controls.png) no-repeat top left;
-	width: 28px;
 	height: 65px;
+	margin-top: -32px;
+	position: absolute;
+	right: 50%;
 	text-indent: -9999px;
+	top: 18px;
+	width: 28px;
 }
 
 #cboxPrevious:hover {
@@ -179,14 +180,15 @@
 }
 
 #cboxNext {
-	position: absolute;
-	top: 50%;
-	right: 5px;
-	margin-top: -32px;
+	-webkit-transform: rotate(90deg);
 	background: url(../assets/controls.png) no-repeat top right;
-	width: 28px;
+	bottom: -14px;
 	height: 65px;
+	margin-top: -32px;
+	position: absolute;
+	right: 50%;
 	text-indent: -9999px;
+	width: 28px;
 }
 
 #cboxNext:hover {

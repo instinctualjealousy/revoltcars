@@ -571,10 +571,10 @@ http://www.jacklmoore.com/colorbox
                         publicMethod.close();
                     }
                     if (open && settings.get('arrowKey') && $related[1] && !e.altKey) {
-                        if (key === 188) {
+                        if (key === 38) {
                             e.preventDefault();
                             $prev.click();
-                        } else if (key === 190) {
+                        } else if (key === 40) {
                             e.preventDefault();
                             $next.click();
                         }
