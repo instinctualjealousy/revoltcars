@@ -14,4 +14,13 @@ $(document).ready(function () {
     $("a.gallery").colorbox({
         rel: 'gal'
     });
+    $(document).bind('cbox_open', function () {
+        $('body').css({
+            overflow: 'hidden'
+        });
+    }).bind('cbox_closed', function () {
+        $('body').css({
+            overflow: 'auto'
+        });
+    });
 });
