@@ -12,7 +12,11 @@ $(document).ready(function () {
             return '<img src="' + 'thumbs/' + filename + '"><br><span>' + parsed.replace('- ', ': ') + '</span>'
     });
     $("a.gallery").colorbox({
-        rel: 'gal'
+        rel: 'gal',
+        current: '',
+        transition: 'none',
+        maxHeight: '95%',
+        maxWidth: '95%'
     });
     $(document).bind('cbox_open', function () {
         $('body').css({
