@@ -72,6 +72,13 @@ body {
 	display: none;
 }
 
+div>iframe {
+	border: 0;
+	display: block;
+	height: 100vh;
+	width: 100%;
+}
+
 table {
 	border-spacing: 0;
 	box-shadow: 0 0 1em black;
@@ -134,11 +141,6 @@ a:hover {
 
 a:active {
 	color: rgb(135, 135, 135);
-}
-
-object {
-	height: 100vh;
-	width: 100%;
 }
 
 #prev,
