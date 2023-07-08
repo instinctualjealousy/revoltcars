@@ -209,3 +209,17 @@
 #cboxClose:hover {
 	background-position: bottom center;
 }
+
+@media only screen and (max-width: 940px) {
+	#cboxContent {
+		margin-top: 0 !important;
+	}
+
+	#cboxCurrent {
+		display: none !important;
+	}
+
+	#cboxTitle {
+		display: none !important;
+	}
+}

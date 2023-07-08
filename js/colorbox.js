@@ -952,6 +952,10 @@ http://www.jacklmoore.com/colorbox
         }
     };
 
+    publicMethod.reload = function () {
+        load();
+    };
+
     function load() {
         var href,
         setResize,
