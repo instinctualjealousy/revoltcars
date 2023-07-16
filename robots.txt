@@ -5,7 +5,6 @@ User-agent: archive.org_bot
 Disallow:
 
 User-agent: *
-Disallow: /aeonica/
 Disallow: /assets/
 Disallow: /carimg/
 Disallow: /carzips/
