@@ -14,8 +14,6 @@ Disallow: /gallery/
 Disallow: /gt2torv/
 Disallow: /holes/
 Disallow: /js/
-Disallow: /riffraff/
-Disallow: /themeandme/
 Disallow: /tools/
 Disallow: /trackimg/
 Disallow: /trackzips/
@@ -29,3 +27,5 @@ Disallow: /cars07.html
 Disallow: /cars08.html
 Disallow: /sidenav.html
 Disallow: /tracks01.html
+Disallow: /updates.json
+Disallow: /updates.rss
