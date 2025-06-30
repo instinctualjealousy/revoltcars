@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv=
+  "content-type">
+  <meta name="viewport" content=
+  "width=device-width, initial-scale=1.0">
+  <title>Adamodell's Re-Volt Cars & More</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <meta content="Adam O'Dell" name="author">
+  <meta content=
+  "A selection of custom cars and stuff for the 1999 PC game Re-Volt."
+  name="description">
+  <meta content=
+  "Re-Volt,Adamodell,Acclaim,conversions,1999,NFS4,RC,radio-controlled,remote-controlled"
+  name="keywords">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href=
+  "css/mainstyle.min.css">
+  <script src=
+  "https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity=
+  "sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+  crossorigin="anonymous"></script>
+  <script src=
+  "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity=
+  "sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src=
+  "https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript" src="js/popout.min.js"></script>
+  <style>
+  button{background-image:url(assets/button.png);background-size:100% 100%;position:relative;border:none;padding:0 .75em;height:3em;-webkit-transition-duration:.4s;transition-duration:.4s;overflow:hidden;cursor:pointer}button:after{content:"";background:rgba(255,255,255,.75);display:block;position:absolute;padding-top:300%;padding-left:350%;margin-left:-20px!important;margin-top:-120%;opacity:0;transition:.8s}button:active:after{padding:0;margin:0;opacity:1;transition:none}button>img{-webkit-filter:drop-shadow(0.15em 0.15em 0.1em black);filter:drop-shadow(.15em .15em .1em black);height:1.5em}#content>h4>span{float:right;margin-left:1em}
+  </style>
+  <script>
+  document.write('<style>#landsplash{background-image: url(\'assets/landing/splash'+Math.round(Math.random()*5+1)+'.jpg\'); background-repeat: no-repeat; background-position: center;}</style>');
+  </script>
+  <script>
+  {$.ajax({type:'GET',url:"updates.json",dataType:'json',success:function(data){console.log(data);data.channel.items.forEach(item=>{var content=document.getElementById('content');var sOriginalDate=item.pubDate;var oDate=new Date(sOriginalDate);var iMonth=oDate.getMonth()+1;var iDay=oDate.getDate();var sNewDate=oDate.getFullYear()+'-'
+  +(iMonth<10?'0':'')+iMonth+'-'
+  +(iDay<10?'0':'')+iDay;var str=sNewDate;var[year,month,day]=str.split('-');var calcDate=new Date(+year,+month-1,+day);var day=calcDate.getDate();var month=calcDate.toLocaleString("default",{month:"long"});var year=calcDate.getFullYear();var nthNumber=(number)=>{if(number>3&&number<21)
+  return"th";switch(day%10){case 1:return"st";case 2:return"nd";case 3:return"rd";default:return"th";}};var ordinalDate=month+' '+day+nthNumber(day)+', '+year;var newItem="";newItem+="<a href=\""+item.link+"\"><h4>"+item.title+"</a><span>("+ordinalDate+")</span></h4>";newItem+="<p>"+item.description+"</p>";content.insertAdjacentHTML('beforeend',newItem);});}});}
+  </script>
+</head>
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick=
+    "closeNav()">✖</a> <iframe id="iframenav" src="sidenav.html"
+    name="iframenav"></iframe>
+  </div>
+  <div id="menubutton">
+    <a href="#" class="openbtn" onclick="openNav()">☰</a>
+  </div>
+  <div id="menubar">
+    <a href="#" class="openbtn" onclick="openNav()">☰</a>
+    <h1>Main</h1>
+  </div>
+  <div id="main">
+    <table>
+      <tbody>
+        <tr>
+          <td class="shadowfill">
+            <h1 id="fullhead">Main</h1>
+            <h3>The Re-Volt Legends Will Most Certainly Die
+            (TBD)</h3>
+          </td>
+        </tr>
+        <tr>
+          <td id="landsplash" class="landtdmod"><span><img title=
+          "Welcome to Adamodell's Re-Volt Cars!" src=
+          "assets/landoverlay.png" style=
+          "max-width: 100%;"></span></td>
+        </tr>
+        <tr>
+          <td class="landtdmod"><span><a href=
+          "https://forum.rvgl.org/"><button title=
+          "The Re-Volt Hideout"><img src=
+          "assets/rvhlogo.png"></button></a> <a href=
+          "themeandme/index.html"><button title=
+          "TheMeandMe.de"><img src=
+          "assets/tmamlogo.png"></button></a> <a href=
+          "riffraff/index.html"><button title=
+          "RiffRaff's Cars and Tracks"><img src=
+          "assets/rrlogo.png"></button></a> <a href=
+          "aeonica/index.html"><button title=
+          "Aeon's Re-Volt Cars"><img src=
+          "assets/aeonlogo.png"></button></a> <a href=
+          "https://amberoftheland.bandcamp.com/"><button title=
+          "My Bandcamp"><img src="assets/bclogo.png"></button></a>
+          <a href="https://062792.xyz/"><button title=
+          "Music Drafts &amp; WIP"><img src=
+          "assets/dotllogo.png"></button></a></span></td>
+        </tr>
+        <tr>
+          <td class="shadowfill"><span>Main page design inspired
+          the themeandme.de, as well as my old 2008 page.<br>
+          If you find any dead links or annoyances, I would
+          appreciate your input.</span></td>
+        </tr>
+        <tr>
+          <td>
+            <h2 id="updates">Updates</h2>
+            <h4>(January 6th, 2023)</h4>
+            <p>I now have a much wider selection of cars that were
+            originally omitted from this site. Cars will get
+            updated incrementally rather than discretely versioned.
+            Pictures may not always be fully representative.</p>
+            <h4>(January 1st, 2023)</h4>
+            <p>The Me and Me's website backup is now up. Not all
+            zips may be originals, and some minor fixes may still
+            be required. I restored saver's and Jam's bios, but I
+            removed contact information. I hope you enjoy it!</p>
+            <hr>
+            <h2 id="rssfeed"><a href="updates.rss"><img src=
+            "assets/rssfeed.svg" style=
+            "height: 0.7em; width: 0.7em;" title=
+            "Open RSS feed directly (feed reader required)"></a>
+            RSS Feed</h2>
+            <div id="content"></div>
+          </td>
+        </tr>
+        <tr>
+          <td class="shadowfill">
+            <h2 id="contactinfo">Contact</h2>
+            <p>If you wish to contact me, there's a few
+            options:</p>
+            <ul>
+              <li>Via my public <a href=
+              "mailto:metallicafan128@gmail.com?Subject=Hi"
+                target="_top">e-mail account</a>
+              </li>
+              <li>Release the valve for <a href=
+              "https://steamcommunity.com/id/damn_fourth_chaos_emerald/">
+                Steam</a>
+              </li>
+              <li>I am a regular user of <a href=
+              "https://t.me/instinctualjealousy">Telegram</a>
+              </li>
+              <li>Create drama with me on <a href=
+              "https://discord.com/users/830052659817349141">Discord</a>
+              </li>
+              <li>Like a Hipster: Gaiden on <a href=
+              "xmpp:adamu-kun@magicbroccoli.de" target=
+              "_top">XMPP</a>
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

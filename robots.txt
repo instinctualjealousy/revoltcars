@@ -1,0 +1,30 @@
+User-agent: ia_archiver
+Disallow:
+
+User-agent: archive.org_bot
+Disallow:
+
+User-agent: *
+Disallow: /assets/
+Disallow: /carimg/
+Disallow: /carzips/
+Disallow: /css/
+Disallow: /gallery/
+Disallow: /gt2torv/
+Disallow: /js/
+Disallow: /tools/
+Disallow: /trackimg/
+Disallow: /trackzips/
+Disallow: /.nojekyll
+Disallow: /cars01.html
+Disallow: /cars02.html
+Disallow: /cars03.html
+Disallow: /cars04.html
+Disallow: /cars05.html
+Disallow: /cars06.html
+Disallow: /cars07.html
+Disallow: /cars08.html
+Disallow: /sidenav.html
+Disallow: /tracks01.html
+Disallow: /updates.json
+Disallow: /updates.rss

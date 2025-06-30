@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html; charset=utf-8" http-equiv=
+  "content-type">
+  <meta name="viewport" content=
+  "width=device-width, initial-scale=1.0">
+  <title>GT2 to RV Tutorial</title>
+  <link rel="icon" type="image/x-icon" href=
+  "../assets/favicon.ico">
+  <meta content="Adam O'Dell" name="author">
+  <link rel="stylesheet" type="text/css" href=
+  "../css/mainstyle.min.css">
+  <link rel="stylesheet" type="text/css" href=
+  "../css/gt2torv.min.css">
+  <script type="text/javascript" src=
+  "https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script type="text/javascript" src=
+  "../js/navigation.min.js"></script>
+  <script type="text/javascript" src=
+  "../js/popout.min.js"></script>
+</head>
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick=
+    "closeNav()">✖</a> <iframe id="iframenav" src="../sidenav.html"
+    name="iframenav"></iframe>
+  </div>
+  <div id="menubutton">
+    <a href="#" class="openbtn" onclick="openNav()">☰</a>
+  </div>
+  <div id="menubar">
+    <a href="#" class="openbtn" onclick="openNav()">☰</a>
+    <h1>GT2 to RV Tut.</h1>
+  </div>
+  <div id="main">
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <h1 id="fullhead">GT2 to RV Tutorial</h1>
+            <h3><a id="prev" style="display: inline;" href=
+            "gt2id.html" target="_self">horizontal swipe or arrows
+            &lt;- -&gt; for IDs</a></h3><em>In many ways, this
+            tutorial is insanely out of date. Many new discoveries,
+            tools and workflows have been made since its
+            creation.<br>
+            I am keeping this here simply for posterity and
+            reference to things that may still apply. (ID list
+            should still be useful!)</em>
+            <hr>
+            This isn't a tutorial on how to use ZModeler or Lithium
+            Unwrapper. You'll need your own wheel mesh, and to map
+            the car or wheels in such a way that it all fits on the
+            map. You can use my wheels if you wish, scloink's,
+            stock wheels et cetera. The opportunities are quite
+            large.<br>
+            <br>
+            <h4>Chapters:</h4>
+            <ol>
+              <li>
+                <a href="#chap1">Retrieving mesh and the basics</a>
+              </li>
+              <li>
+                <a href="#chap2">Procuring a texture map</a>
+              </li>
+              <li>
+                <a href="#chap3">ZModeler to Lithium Unwrapper and
+                back</a>
+              </li>
+              <li>
+                <a href="#chap4">FCE Finish</a>
+              </li>
+              <li>
+                <a href="#chap5">Final Preparations for
+                Re-Volt!</a>
+              </li>
+            </ol>
+            <h4>Programs you'll need:</h4>
+            <ul>
+              <li>
+                <a href="assets/GT2Vol.zip">GT2Vol</a>
+              </li>
+              <li>
+                <a href="../tools/zmodeler_v107b.zip">ZModeler
+                1.07b</a> (1.06f lacks the GT2 import filter)
+              </li>
+              <li>
+                <a href="../tools/PSicture-101.zip">PSicture
+                1.01</a>
+              </li>
+              <li>
+                <a href="../tools/LithUnwrap.zip">Lithium
+                Unwrapper</a>
+              </li>
+              <li>
+                <a href="../tools/fcefinish_v2.zip">FCE Finish</a>
+                (only needed if mapping with LithUnwrap)
+              </li>
+              <li>A good paint program (i.e. Paint Shop Pro,
+              Photoshop, <a href="http://www.gimp.org/downloads/"
+              target="_blank">GIMP</a>, <a href=
+              "http://www.getpaint.net/download.html" target=
+              "_blank">paint.net</a>)
+              </li>
+              <li>An <a href="http://www.7-zip.org/" target=
+              "_blank">archiver</a> that can open GZip tape
+              archives (*.c**.gz)
+              </li>
+            </ul>First things first, though, is that you have to
+            know ZModeler (or your 3D software of choice);
+            including a cursory knowledge of UV mapping (I've
+            always been terrible at it).
+            <hr>
+            <h2 id="chap1">Chapter 1: Retrieving mesh and the
+            basics</h2>Well, now that we've got that out of the
+            way, pop either the <strong>Arcade</strong> or
+            <strong>Simulation</strong> disc in your CD drive (real
+            or virtual). Make a new folder, name it, and make sure
+            it's where you'd like it. Start GT2Vol and choose the
+            directory you just created (it's at the top of the
+            software). Deselect <strong>carobj</strong> from the
+            list of items to skip, as this contains all the game's
+            car meshes.<br>
+            <br>
+            Click the <strong>Do it</strong> button when you are
+            sure this is where you want to extract the files. It'll
+            start doing its magic!<br>
+            <br>
+            <img src="assets/MpcG4df.webp"><br>
+            <br>
+            Find the GT2 CD in the file selector and go inside it.
+            Choose the <strong>GT2.VOL</strong> file!<br>
+            <br>
+            <img src="assets/E6UFXTN.webp"><br>
+            <br>
+            Now just wait for it to finish, and then go to the
+            <strong>carobj</strong> folder inside of the folder you
+            extracted to. This folder contains *.gz archives (the
+            cars) with double extensions. The first extension is
+            the type of data contained. Now, you're probably
+            curious of why there's so many files for each ID#,
+            right?<br>
+            <br>
+            <h4>Let me explain:</h4>The file extensions are more
+            descriptive than you may think at first glance. The
+            first letter is always <strong>C</strong>,
+            <strong>c</strong>ar. The second letter is either
+            <strong>D</strong> or <strong>N</strong>. This
+            signifies the <strong>d</strong>ay or
+            <strong>n</strong>ight variants of the car, chosen by
+            the game to fit the track environment's time of day.
+            This of course changes things like whether pop-up
+            headlights are up, and if headlights and rear lights
+            are on. The third letter is <strong>O</strong> or
+            <strong>P</strong>- <strong>o</strong>bject and
+            <strong>p</strong>aint accordingly. So if you have a
+            *.c<strong>np</strong> file, it's the
+            "<strong>n</strong>ight <strong>p</strong>aint" of said
+            car, or if you have a *.c<strong>do</strong> file it's
+            "<strong>d</strong>ay <strong>o</strong>bject" and so
+            on. Naturally, if you convert the night object (3D
+            mesh), you want to convert the night paint (texture)
+            alongside it- if you wish to go the texture conversion
+            route, that is!<br>
+            <br>
+            <img src="assets/KjHHkpS.webp"><br>
+            <br>
+            We're only worried about the mesh for now, though. The
+            prefixed letters and numbers are the vehicle ID. You
+            can find out what car is what by referencing the <a id=
+            "next" style="display: inline;" href="gt2id.html"
+            target="_self">ID list</a>. I'll be using a day mesh
+            for this example. When you decide which car you wish to
+            work on, open the *.cdo.gz version of the applicable
+            ID.<br>
+            <br>
+            <strong>Extract the *.cdo out of the
+            archive!</strong><br>
+            <br>
+            <a href="assets/mftnr.zip"><img src=
+            "assets/kRE5LWw.webp"></a><br>
+            If you're lazy, <strong>click the image
+            above!</strong><br>
+            <br>
+            Import this file in ZModeler:<br>
+            <br>
+            <img src="assets/hkFybcp.webp"><br>
+            <br>
+            Be surprised- as you'll notice that these files include
+            multiple models for level-of-detail purposes. You only
+            need the highest detail mesh, so discard the rest
+            (cdo[0] and cdo[1]). Let's start thinking about
+            textures in the next chapter!<br>
+            <br>
+            <img src="assets/J4S8r7Z.webp">
+            <hr>
+            <h2 id="chap2">Chapter 2: Procuring a texture
+            map</h2>There's multiple ways you can go about
+            this.<br>
+            <br>
+            <h4>The three methods I've used:</h4>
+            <ul>
+              <li>Real life or other source images of car aspects
+              (front/side/rear) made into a map</li>
+              <li>GT2 screenshots of car aspects
+              (front/side/rear)</li>
+              <li>GT2 texture conversion and editing</li>
+            </ul>I recommend using <a href=
+            "../tools/GT2wheelsPNG.zip">GT2 Wheel Shop textures</a>
+            for the wheels (if you don't use the original texture)
+            since it's aesthetically fitting.<br>
+            <br>
+            The first and second methods for making a texture map
+            are a free-for-all. Because of this, I won't elaborate
+            on it much. The third and final method is something
+            that actually takes some previous knowledge to do, so I
+            will expand upon that.<br>
+            <br>
+            You'll need to extract the texture for the mesh you're
+            converting. Since our example is mftnr.cdo(.gz), we'll
+            need to extract <strong>mftnr.cdp</strong> from
+            *.cdp.gz. Open the archive, and extract
+            <strong>mftnr.cdp</strong> from it. Place it anywhere
+            you wish, but remember where you put it. We'll be
+            opening it with PSicture next.<br>
+            <br>
+            Car textures in GT2 can only be read in raw mode-
+            unlike the *.tim files that are very easy to work with!
+            Sadly, those *.tim(s) are only used for wheels procured
+            in the game from the Wheel Shop. Opening GT2 car
+            textures in raw mode takes very specific values to
+            achieve an adequate result.<br>
+            <br>
+            Open PSicture. CTRL+R or "File -&gt; Open as raw...".
+            Select your *.cdp file. And fill out the boxes
+            <strong>exactly as they are here:</strong><br>
+            <br>
+            <img src="assets/QjTk6Bg.webp"><br>
+            <br>
+            You will likely notice some wrong colors after import.
+            This is a small annoyance- different sections of the
+            bitmap will be rendered correctly under different
+            palettes. To cycle through the palette, press F8. If
+            you find something correctly rendered under a certain
+            palette, save the image as a bitmap (CTRL+S or "File
+            -&gt; Save image") for later use. Keep saving bitmaps!
+            If you wish to cycle back, press F7. You'll end up
+            saving at least a few different bitmaps because of
+            this.<br>
+            <br>
+            Notice some of the areas are rendered correctly and
+            <strong>others are not:</strong><br>
+            <br>
+            <img src="assets/1PbRtae.webp"><br>
+            <br>
+            After you have all your different bitmaps together,
+            it'll be up to you to build a map out of these
+            different palette chunks. If certain aspects of the
+            texture look like they'd be hard to UV map for your
+            skill level, feel free to take screenshots of the
+            problem areas for easier mapping or make your own
+            textures. Try to keep it as seamless as possible. I
+            won't continue further because I think you've got this.
+            <hr>
+            <h2 id="chap3">Chapter 3: ZModeler to Lithium Unwrapper
+            and back</h2>So you have that car imported still, yes?
+            The LOD models deleted? Good. Now, here's what you need
+            to do. This part is indeed a little iffy, so any
+            attention here is useful. Delete all materials and add
+            a new material- the bitmap you made in the previous
+            chapter. When all is good, export this as a *.3ds. Why?
+            Because we're leaving ZModeler. I personally never
+            liked ZModeler for UV mapping.<br>
+            <br>
+            If you have a better understanding of ZModeler's UV
+            system than LithUnwrap's and don't feel like changing
+            workflow, skip to <a href="#chap5">Chapter 5</a>.<br>
+            If you <strong>do</strong> wish to use Lithium
+            Unwrapper, I'm not explaining its use here, but I'll go
+            through the basics!<br>
+            <br>
+            Open Lithium Unwrapper. Go to "File -&gt; Model -&gt;
+            Open" in the menu, and open the *.3ds file you created.
+            With the associated material, it should load fully.
+            There are many possible ways to unwrap the mesh, and
+            given the freedom of selection, it's very easy and
+            nimble at its task. Once you have the car fully UV
+            mapped, "File -&gt; Model -&gt; Save". Re-import this
+            into ZModeler- however, there will be another
+            hair-pulling step involved that you may not have seen
+            coming! <em>You see</em>- when you converted the file
+            to *.3ds, you <strong>totally messed up the vertex
+            normals!</strong> The normals need recalculated. I
+            personally use FCE Finish for this task.
+            <hr>
+            <h2 id="chap4">Chapter 4: FCE Finish</h2>Since we're
+            moving to a different application, I need to take that
+            mesh I just imported back into ZModeler and export is
+            as an *.fce, the NFS4 format. Once the file is
+            exported, open it in FCE Finish. Its link after install
+            might be broken like it was for me. That's some quality
+            workmanship. It isn't hard to find in <strong>Program
+            Files</strong>, however. Another note: you'll get a
+            little pop-up that there is no help.dat. Just skip
+            through it!<br>
+            <br>
+            Select <strong>Surfaces</strong> after the file is
+            open:<br>
+            <br>
+            <img src="assets/V3KfLye.webp"><br>
+            <br>
+            When you click it, <strong>you'll get a
+            pop-up:</strong><br>
+            <br>
+            <img src="assets/Mb72XiZ.webp"><br>
+            <br>
+            Hit <strong>OK</strong>. Now, let the adjusting begin.
+            You can get real technical, but I'd recommend just
+            clicking <strong>Smooth by angle limit</strong>. The
+            farthest right option, <strong>No</strong>, is the most
+            surefire one; if you want to retain some edges by angle
+            amount, tweak to taste. When all looks good, simply
+            save the *.fce.
+            <hr>
+            <h2 id="chap5">Chapter 5: Final Preparations for
+            Re-Volt!</h2>This is where it'll start getting a
+            <em>lot</em> like NFS4 conversions, it's the home
+            stretch! I'll assume that whichever path was taken, you
+            have all models and textures sorted. At this point,
+            you'll want to do the standard car export procedure so
+            that it actually works right in Re-Volt (isn't clear or
+            black). Once you have it exported and shaded, we need
+            to decide on a scale. I use a scale of 0.5x, but if you
+            want it closer to NFS4 TMaM size, you'll want to scale
+            it closer to 0.4x. You're almost there! Time to make
+            some inspired parameters, unlike me!<br>
+            <br>
+            <h4>Extra tips:</h4>
+            <ul>
+              <li>Delete extraneous polygons from the mesh if you
+              aren't going to use them (there are some extra
+              polygons for some elements on the cars that you may
+              or may not want)</li>
+              <li>If you're handy with modeling- rework the wheel
+              wells because the transparency trick doesn't work
+              well and Skarma also hates it</li>
+              <li>Use LithUnwrap's optimize options for clearing
+              out unneeded vertices before exporting the *.3ds
+              file</li>
+            </ul><strong>I wish you luck. If you need personal
+            help, <a href="../index.html#contactinfo">just
+            ask</a>.</strong>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
