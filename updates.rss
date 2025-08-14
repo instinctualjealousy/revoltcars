@@ -2,98 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adamodell's Re-Volt Cars</title>
-    <link>https://revoltcars.xyz/</link>
-    <atom:link href="https://revoltcars.xyz/updates.rss" rel="self" type="application/rss+xml"></atom:link>
+    <link>https://revoltcars.062792.xyz/</link>
+    <atom:link href="https://revoltcars.062792.xyz/updates.rss" rel="self" type="application/rss+xml"></atom:link>
     <description>New/Updated Content</description>
     <language>en-us</language>
     <ttl>10</ttl>
     <item>
       <title>Update: Lamborghini Gallardo</title>
-      <link>https://revoltcars.xyz/cars03.html#lambgallar</link>
+      <link>https://revoltcars.062792.xyz/cars03.html#lambgallar</link>
       <description>Improved collision to avoid bottoming out</description>
       <guid isPermaLink="false">794b73b7-58e2-450b-b311-ffd241f0df61</guid>
       <pubDate>Fri, 10 Mar 2023 10:01:51 CST</pubDate>
     </item>
     <item>
       <title>Update: Honda CR-X SiR</title>
-      <link>https://revoltcars.xyz/cars03.html#honceerx</link>
+      <link>https://revoltcars.062792.xyz/cars03.html#honceerx</link>
       <description>Improved collision to avoid bottoming out</description>
       <guid isPermaLink="false">4e8f1056-8113-41d6-ab32-e85054f27751</guid>
       <pubDate>Fri, 10 Mar 2023 10:01:34 CST</pubDate>
     </item>
     <item>
       <title>Update: Nissan Skyline H/T 2000GT-R</title>
-      <link>https://revoltcars.xyz/cars02.html#nisht2000gt-r</link>
+      <link>https://revoltcars.062792.xyz/cars02.html#nisht2000gt-r</link>
       <description>Improved collision to avoid bottoming out</description>
       <guid isPermaLink="false">90d4773f-37fc-41ae-993a-f032adce5904</guid>
       <pubDate>Fri, 10 Mar 2023 10:01:04 CST</pubDate>
     </item>
     <item>
       <title>Update: Ford F-250 Lowrider</title>
-      <link>https://revoltcars.xyz/cars04.html#f250rideslow</link>
+      <link>https://revoltcars.062792.xyz/cars04.html#f250rideslow</link>
       <description>Improved collision to avoid bottoming out</description>
       <guid isPermaLink="false">b9ae3f11-ca59-4daa-bb27-927dc8f223a2</guid>
       <pubDate>Thu, 9 Mar 2023 10:30:55 CST</pubDate>
     </item>
     <item>
       <title>Update: Toyota bB</title>
-      <link>https://revoltcars.xyz/cars04.html#toyobbub</link>
+      <link>https://revoltcars.062792.xyz/cars04.html#toyobbub</link>
       <description>Improved collision to avoid bottoming out</description>
       <guid isPermaLink="false">12356089-bb76-4a70-bcc5-c4f38033d79d</guid>
       <pubDate>Thu, 9 Mar 2023 10:30:42 CST</pubDate>
     </item>
     <item>
       <title>Update: Mercedes-Benz CLK DTM '01</title>
-      <link>https://revoltcars.xyz/cars02.html#clk_dtm_01</link>
+      <link>https://revoltcars.062792.xyz/cars02.html#clk_dtm_01</link>
       <description>Overhauled with usable parameters, carbox, new collision, colors et cetera</description>
       <guid isPermaLink="false">d1bf4cbd-73ef-4068-8ffc-80005503bd2d</guid>
       <pubDate>Wed, 8 Mar 2023 14:52:41 CST</pubDate>
     </item>
     <item>
       <title>Update: Blitz ZZII</title>
-      <link>https://revoltcars.xyz/cars04.html#blitzzii</link>
+      <link>https://revoltcars.062792.xyz/cars04.html#blitzzii</link>
       <description>Improved collision to avoid bottoming out, set rating to Super Pro</description>
       <guid isPermaLink="false">9066a7b9-80d3-41ff-8067-f87ac77a67d5</guid>
       <pubDate>Tue, 7 Mar 2023 09:37:18 CST</pubDate>
     </item>
     <item>
       <title>Update: Tommy Kaira ZZII</title>
-      <link>https://revoltcars.xyz/cars04.html#kaizzii</link>
+      <link>https://revoltcars.062792.xyz/cars04.html#kaizzii</link>
       <description>Improved collision to avoid bottoming out, set rating to Super Pro</description>
       <guid isPermaLink="false">65f6073e-2ed4-4ac0-b216-05dac82e903f</guid>
       <pubDate>Tue, 7 Mar 2023 09:36:57 CST</pubDate>
     </item>
     <item>
       <title>Update: Persona 5 Morgana Van</title>
-      <link>https://revoltcars.xyz/cars08.html#p5morgana</link>
+      <link>https://revoltcars.062792.xyz/cars08.html#p5morgana</link>
       <description>Improved collision to avoid bottoming out</description>
       <guid isPermaLink="false">e9ed89d3-c229-40e3-8cb3-00024eaaa20b</guid>
       <pubDate>Mon, 6 Mar 2023 11:33:55 CST</pubDate>
     </item>
     <item>
       <title>Update: Lamborghini Murcielago Pursuit</title>
-      <link>https://revoltcars.xyz/cars07.html#lamurpur</link>
+      <link>https://revoltcars.062792.xyz/cars07.html#lamurpur</link>
       <description>Improved collision to avoid bottoming out</description>
       <guid isPermaLink="false">e1866cd1-93fb-40c7-aaa7-ccc3c54e7985</guid>
       <pubDate>Mon, 6 Mar 2023 11:29:11 CST</pubDate>
     </item>
     <item>
       <title>Update: Ford Focus 1.8i</title>
-      <link>https://revoltcars.xyz/cars07.html#foc1.8igt2</link>
+      <link>https://revoltcars.062792.xyz/cars07.html#foc1.8igt2</link>
       <description>Improved collision to avoid bottoming out</description>
       <guid isPermaLink="false">00d96177-a2d6-4e56-b8d0-a971dfcd0de7</guid>
       <pubDate>Mon, 6 Mar 2023 11:28:32 CST</pubDate>
     </item>
     <item>
       <title>Update: Team Oreca Viper GTS-R</title>
-      <link>https://revoltcars.xyz/cars07.html#viporecgt2</link>
+      <link>https://revoltcars.062792.xyz/cars07.html#viporecgt2</link>
       <description>Improved collision to avoid bottoming out</description>
       <guid isPermaLink="false">4c40f023-456c-49b7-a152-f21cc94846d0</guid>
       <pubDate>Mon, 6 Mar 2023 11:28:23 CST</pubDate>
     </item>
     <item>
       <title>New Release: Carbox 2 &amp; 3</title>
-      <link>https://revoltcars.xyz/tracks01.html#carbox2+3</link>
+      <link>https://revoltcars.062792.xyz/tracks01.html#carbox2+3</link>
       <description>Slightly improved version of Skarma's?? Carbox- green-screen version also included</description>
       <guid isPermaLink="false">4f4d1138-8549-4df3-9205-5075949d9086</guid>
       <pubDate>Thu, 19 Jan 2023 12:21:24 CST</pubDate>
